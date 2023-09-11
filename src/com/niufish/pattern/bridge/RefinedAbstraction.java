@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.bridge
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.bridge
  * 
- * ÎÄ¼şÃû³Æ RefinedAbstraction.java
+ * æ–‡ä»¶åç§° RefinedAbstraction.java
  * 
  */
 package com.niufish.pattern.bridge;
 
 /**
- * À©Õ¹³éÏóÀà£¬¸Ä±äºÍĞŞÕı¸¸Àà¶ÔÏóµÄ¶¨Òå
+ * æ‰©å±•æŠ½è±¡ç±»ï¼Œæ”¹å˜å’Œä¿®æ­£çˆ¶ç±»å¯¹è±¡çš„å®šä¹‰
  * <p>
  * <a href="RefinedAbstraction.java.html"><i>View Source</i></a>
  * </p>

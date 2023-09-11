@@ -1,15 +1,15 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.interpreter
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.interpreter
  * 
- * ÎÄ¼şÃû³Æ NonterminalExpression.java
+ * æ–‡ä»¶åç§° NonterminalExpression.java
  * 
  */
 package com.niufish.pattern.interpreter;
 
 /**
- * ·ÇÖÕ½á±í´ïÊ½½ÇÉ«<br />
- * ´Ë´¦ÎªÑ­»·Óï¾ä
+ * éç»ˆç»“è¡¨è¾¾å¼è§’è‰²<br />
+ * æ­¤å¤„ä¸ºå¾ªç¯è¯­å¥
  * <p>
  * <a href="NonterminalExpression.java.html"><i>View Source</i></a>
  * </p>
@@ -19,19 +19,19 @@ package com.niufish.pattern.interpreter;
 public class NonterminalExpression implements AbstractExpression {
     
     /**
-     * ³ÖÓĞµÄ±í´ïÊ½
+     * æŒæœ‰çš„è¡¨è¾¾å¼
      */
     private AbstractExpression _expression;
     
     /**
-     * Ñ­»·µÄ´ÎÊı
+     * å¾ªç¯çš„æ¬¡æ•°
      */
     private int _times = 0;
     
     /**
-     * ³õÊ¼»¯³ÖÓĞ¶ÔÏó£¬²¢Ã÷È·Ñ­»·´ÎÊı
-     * @param exp ±í´ïÊ½¶ÔÏó
-     * @param times Ñ­»·µÄ´ÎÊı
+     * åˆå§‹åŒ–æŒæœ‰å¯¹è±¡ï¼Œå¹¶æ˜ç¡®å¾ªç¯æ¬¡æ•°
+     * @param exp è¡¨è¾¾å¼å¯¹è±¡
+     * @param times å¾ªç¯çš„æ¬¡æ•°
      */
     public NonterminalExpression(AbstractExpression exp,int times){
         _expression = exp;

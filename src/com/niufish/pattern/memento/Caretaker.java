@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.memento
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.memento
  * 
- * ÎÄ¼şÃû³Æ Caretaker.java
+ * æ–‡ä»¶åç§° Caretaker.java
  * 
  */
 package com.niufish.pattern.memento;
 
 /**
- * ¸ºÔğÈË½ÇÉ«£¬¸ºÔğ±£´æ±¸ÍüÂ¼¶ÔÏó£¬²»¼ì²é±¸ÍüÂ¼¶ÔÏóÄÚÈİ
+ * è´Ÿè´£äººè§’è‰²ï¼Œè´Ÿè´£ä¿å­˜å¤‡å¿˜å½•å¯¹è±¡ï¼Œä¸æ£€æŸ¥å¤‡å¿˜å½•å¯¹è±¡å†…å®¹
  * <p>
  * <a href="Caretaker.java.html"><i>View Source</i></a>
  * </p>
@@ -18,20 +18,20 @@ package com.niufish.pattern.memento;
 public class Caretaker {
     
     /**
-     * ³ÖÓĞµÄ±¸ÍüÂ¼¶ÔÏó
+     * æŒæœ‰çš„å¤‡å¿˜å½•å¯¹è±¡
      */
     private MementoIF _memento;
     
     /**
-     * @return Ïà¹ØµÄ±¸ÍüÂ¼
+     * @return ç›¸å…³çš„å¤‡å¿˜å½•
      */
     public MementoIF retrieveMemento(){
         return _memento;
     }
     
     /**
-     * ±£´æ±¸ÍüÂ¼¶ÔÏó
-     * @param memento ±¸ÍüÂ¼¶ÔÏó
+     * ä¿å­˜å¤‡å¿˜å½•å¯¹è±¡
+     * @param memento å¤‡å¿˜å½•å¯¹è±¡
      */
     public void saveMemento(MementoIF memento){
         _memento = memento;

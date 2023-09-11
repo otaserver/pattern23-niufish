@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.bridge
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.bridge
  * 
- * ÎÄ¼şÃû³Æ ConcreteImplementorB.java
+ * æ–‡ä»¶åç§° ConcreteImplementorB.java
  * 
  */
 package com.niufish.pattern.bridge;
 
 /**
- * ¾ßÌåÊµÏÖB
+ * å…·ä½“å®ç°B
  * <p>
  * <a href="ConcreteImplementorB.java.html"><i>View Source</i></a>
  * </p>

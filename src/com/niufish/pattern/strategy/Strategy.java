@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.strategy
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.strategy
  * 
- * ÎÄ¼şÃû³Æ Strategy.java
+ * æ–‡ä»¶åç§° Strategy.java
  * 
  */
 package com.niufish.pattern.strategy;
 
 /**
- * ¸ø³ö¾ßÌå²ßÂÔÀàËùĞèÒªµÄ½Ó¿Ú£¬ÕâÀïÒ²¿ÉÒÔÓÉ³éÏóÀà
+ * ç»™å‡ºå…·ä½“ç­–ç•¥ç±»æ‰€éœ€è¦çš„æ¥å£ï¼Œè¿™é‡Œä¹Ÿå¯ä»¥ç”±æŠ½è±¡ç±»
  * <p>
  * <a href="Strategy.java.html"><i>View Source</i></a>
  * </p>
@@ -18,7 +18,7 @@ package com.niufish.pattern.strategy;
 public interface Strategy {
     
     /**
-     * Ëã·¨µÄ½Ó¿Ú
+     * ç®—æ³•çš„æ¥å£
      */
     void algorithmInterface();
 }

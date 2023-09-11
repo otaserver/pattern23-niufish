@@ -1,15 +1,15 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.builder
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.builder
  * 
- * ÎÄ¼şÃû³Æ Director.java
+ * æ–‡ä»¶åç§° Director.java
  * 
  */
 package com.niufish.pattern.builder;
 
 /**
- * µ¼Ñİ£¬¸ºÔğÓĞ¹æÔòµÄ¹¹½¨¶ÔÏó <br />
- * ÓëClientÀàºÏ²¢Ê±ĞèÒª°Ñ½¨ÔìµÄÏ¸½Ú·Åµ½ConcreteBuilderÖĞÈ¥
+ * å¯¼æ¼”ï¼Œè´Ÿè´£æœ‰è§„åˆ™çš„æ„å»ºå¯¹è±¡ <br />
+ * ä¸Clientç±»åˆå¹¶æ—¶éœ€è¦æŠŠå»ºé€ çš„ç»†èŠ‚æ”¾åˆ°ConcreteBuilderä¸­å»
  * <p>
  * <a href="Director.java.html"><i>View Source</i></a>
  * </p>
@@ -21,7 +21,7 @@ public class Director {
     private Builder _builder;
     
     /**
-     * ²úÆ·¹¹Ôì·½·¨£¬¸ºÔğµ÷ÓÃ¸÷¸öÁã¼ş½¨Ôì·½·¨
+     * äº§å“æ„é€ æ–¹æ³•ï¼Œè´Ÿè´£è°ƒç”¨å„ä¸ªé›¶ä»¶å»ºé€ æ–¹æ³•
      */
     public void construct(){
         _builder = new ConcreteBuilder();

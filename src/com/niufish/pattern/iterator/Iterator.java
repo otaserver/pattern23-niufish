@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.iterator
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.iterator
  * 
- * ÎÄ¼şÃû³Æ Iterator.java
+ * æ–‡ä»¶åç§° Iterator.java
  * 
  */
 package com.niufish.pattern.iterator;
 
 /**
- * ³éÏóµü´ú×Ó½ÇÉ«£¬¶¨Òå³ö±éÀúÔªËØËùĞèÒªµÄ½Ó¿Ú
+ * æŠ½è±¡è¿­ä»£å­è§’è‰²ï¼Œå®šä¹‰å‡ºéå†å…ƒç´ æ‰€éœ€è¦çš„æ¥å£
  * <p>
  * <a href="Iterator.java.html"><i>View Source</i></a>
  * </p>
@@ -18,22 +18,22 @@ package com.niufish.pattern.iterator;
 public interface Iterator {
     
     /**
-     * ÒÆ¶¯µ½µÚÒ»¸öÔªËØ
+     * ç§»åŠ¨åˆ°ç¬¬ä¸€ä¸ªå…ƒç´ 
      */
     void first();
     
     /**
-     * ÒÆ¶¯µ½ÏÂÒ»¸öÔªËØ
+     * ç§»åŠ¨åˆ°ä¸‹ä¸€ä¸ªå…ƒç´ 
      */
     void next();
     
     /**
-     * @return ÊÇ·ñÊÇ×îºóÒ»¸öÔªËØ
+     * @return æ˜¯å¦æ˜¯æœ€åä¸€ä¸ªå…ƒç´ 
      */
     boolean isDone();
     
     /**
-     * @return µ±Ç°ÔªËØ 
+     * @return å½“å‰å…ƒç´  
      */
     Object currentItem();
     

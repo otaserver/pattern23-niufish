@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.iterator
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.iterator
  * 
- * ÎÄ¼şÃû³Æ ConcreteIterator.java
+ * æ–‡ä»¶åç§° ConcreteIterator.java
  * 
  */
 package com.niufish.pattern.iterator;
 
 /**
- * ¾ßÌåµü´ú×Ó½ÇÉ«
+ * å…·ä½“è¿­ä»£å­è§’è‰²
  * <p>
  * <a href="ConcreteIterator.java.html"><i>View Source</i></a>
  * </p>
@@ -18,18 +18,18 @@ package com.niufish.pattern.iterator;
 public class ConcreteIterator implements Iterator {
     
     /**
-     * ³ÖÓĞµÄ¾ßÌå¾Û¼¯¶ÔÏó
+     * æŒæœ‰çš„å…·ä½“èšé›†å¯¹è±¡
      */
     private ConcreteAggregate _cagg;
     
     /**
-     * ¾Û¼¯Ë÷Òı
+     * èšé›†ç´¢å¼•
      */
     private int _index = 0;
     
     /**
-     * ³õÊ¼»¯¾ßÌå¾Û¼¯¶ÔÏó
-     * @param cagg ¾ßÌå¾Û¼¯¶ÔÏó
+     * åˆå§‹åŒ–å…·ä½“èšé›†å¯¹è±¡
+     * @param cagg å…·ä½“èšé›†å¯¹è±¡
      */
     public ConcreteIterator(ConcreteAggregate cagg){
         _cagg = cagg;

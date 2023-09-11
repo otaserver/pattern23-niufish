@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.facade
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.facade
  * 
- * ÎÄ¼şÃû³Æ Facade.java
+ * æ–‡ä»¶åç§° Facade.java
  * 
  */
 package com.niufish.pattern.facade;
 
 /**
- * ÃÅÃæ½ÇÉ«
+ * é—¨é¢è§’è‰²
  * <p>
  * <a href="Facade.java.html"><i>View Source</i></a>
  * </p>
@@ -22,7 +22,7 @@ public class Facade {
     private SubSystem2 s2 = new SubSystem2();
     
     /**
-     * °Ñ×ÓÏµÍ³ÖĞµÄ¶¯×÷´ò°ü
+     * æŠŠå­ç³»ç»Ÿä¸­çš„åŠ¨ä½œæ‰“åŒ…
      */
     public void OperationWrapper(){
         s1.operation();

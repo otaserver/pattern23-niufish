@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.state
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.state
  * 
- * ÎÄ¼şÃû³Æ State.java
+ * æ–‡ä»¶åç§° State.java
  * 
  */
 package com.niufish.pattern.state;
 
 /**
- * ³éÏó×´Ì¬½ÇÉ«
+ * æŠ½è±¡çŠ¶æ€è§’è‰²
  * <p>
  * <a href="State.java.html"><i>View Source</i></a>
  * </p>
@@ -18,8 +18,8 @@ package com.niufish.pattern.state;
 public interface State {
     
     /**
-     * ²»Í¬×´Ì¬µÄÏàÓ¦½Ó¿Ú<br />
-     * ´Ë´¦ÎªºôÎüµÄÇé¿ö
+     * ä¸åŒçŠ¶æ€çš„ç›¸åº”æ¥å£<br />
+     * æ­¤å¤„ä¸ºå‘¼å¸çš„æƒ…å†µ
      */
     void Handle();
 

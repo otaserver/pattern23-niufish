@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.iterator
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.iterator
  * 
- * ÎÄ¼şÃû³Æ ConcreteAggregate.java
+ * æ–‡ä»¶åç§° ConcreteAggregate.java
  * 
  */
 package com.niufish.pattern.iterator;
 
 /**
- * ¾ßÌå¾Û¼¯½ÇÉ«
+ * å…·ä½“èšé›†è§’è‰²
  * <p>
  * <a href="ConcreteAggregate.java.html"><i>View Source</i></a>
  * </p>
@@ -18,7 +18,7 @@ package com.niufish.pattern.iterator;
 public class ConcreteAggregate implements Aggregate {
     
     /**
-     * ³ÖÓĞµÄÊı×é¶ÔÏó
+     * æŒæœ‰çš„æ•°ç»„å¯¹è±¡
      */
     private Object[] _objs = {"kingfish","niuniu","99"};
     
@@ -30,9 +30,9 @@ public class ConcreteAggregate implements Aggregate {
     }
     
     /**
-     * Ìá¹©¾Û¼¯ÔªËØ
-     * @param idx Î»ÖÃ
-     * @return ÔÚÎ»ÖÃÉÏµÄ¶ÔÏó
+     * æä¾›èšé›†å…ƒç´ 
+     * @param idx ä½ç½®
+     * @return åœ¨ä½ç½®ä¸Šçš„å¯¹è±¡
      */
     public Object getElement(int idx){
         if (idx < _objs.length)
@@ -42,7 +42,7 @@ public class ConcreteAggregate implements Aggregate {
     }
     
     /**
-     * @return ¾Û¼¯µÄ´óĞ¡
+     * @return èšé›†çš„å¤§å°
      */
     public int size(){
         return _objs.length;

@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.factoryMethod
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.factoryMethod
  * 
- * ÎÄ¼şÃû³Æ Creator.java
+ * æ–‡ä»¶åç§° Creator.java
  * 
  */
 package com.niufish.pattern.factoryMethod;
 
 /**
- * ³éÏó¹¤³§£¬ÈÎºÎÔÚÄ£Ê½ÖĞ´´½¨µÄ¹¤³§Àà±ØĞëÊµÏÖÕâ¸ö½Ó¿Ú
+ * æŠ½è±¡å·¥å‚ï¼Œä»»ä½•åœ¨æ¨¡å¼ä¸­åˆ›å»ºçš„å·¥å‚ç±»å¿…é¡»å®ç°è¿™ä¸ªæ¥å£
  * <p>
  * <a href="Creator.java.html"><i>View Source</i></a>
  * </p>
@@ -18,8 +18,8 @@ package com.niufish.pattern.factoryMethod;
 public interface Creator {
     
     /**
-     * ¹¤³§·½·¨
-     * @return ³éÏóµÄ²úÆ·
+     * å·¥å‚æ–¹æ³•
+     * @return æŠ½è±¡çš„äº§å“
      */
     Product FactoryMethod();
 

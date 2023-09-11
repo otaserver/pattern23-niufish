@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.command
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.command
  * 
- * ÎÄ¼şÃû³Æ ConcreteCommand.java
+ * æ–‡ä»¶åç§° ConcreteCommand.java
  * 
  */
 package com.niufish.pattern.command;
 
 /**
- * ¾ßÌåÃüÁî½ÇÉ«£¬¶¨ÒåÒ»¸ö½ÓÊÕÕßºÍĞĞÎªÖ®¼äµÄÈõñîºÏ£¬ÊµÏÖexecute·½·¨£¬¸ºÔğµ÷ÓÃ½ÓÊÕÕßµÄÏàÓ¦²Ù×÷¡£
+ * å…·ä½“å‘½ä»¤è§’è‰²ï¼Œå®šä¹‰ä¸€ä¸ªæ¥æ”¶è€…å’Œè¡Œä¸ºä¹‹é—´çš„å¼±è€¦åˆï¼Œå®ç°executeæ–¹æ³•ï¼Œè´Ÿè´£è°ƒç”¨æ¥æ”¶è€…çš„ç›¸åº”æ“ä½œã€‚
  * <p>
  * <a href="ConcreteCommand.java.html"><i>View Source</i></a>
  * </p>
@@ -18,13 +18,13 @@ package com.niufish.pattern.command;
 public class ConcreteCommand implements Command {
     
     /**
-     * ³ÖÓĞµÄ½ÓÊÕÕß¶ÔÏó
+     * æŒæœ‰çš„æ¥æ”¶è€…å¯¹è±¡
      */
     private Receiver _receiver;
     
     /**
-     * ³õÊ¼»¯³ÖÓĞµÄ½ÓÊÕÕß¶ÔÏó
-     * @param receiver ½ÓÊÕÕß¶ÔÏó
+     * åˆå§‹åŒ–æŒæœ‰çš„æ¥æ”¶è€…å¯¹è±¡
+     * @param receiver æ¥æ”¶è€…å¯¹è±¡
      */
     public ConcreteCommand(Receiver receiver){
         _receiver = receiver;

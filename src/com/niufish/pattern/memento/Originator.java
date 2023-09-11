@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.memento
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.memento
  * 
- * ÎÄ¼şÃû³Æ Originator.java
+ * æ–‡ä»¶åç§° Originator.java
  * 
  */
 package com.niufish.pattern.memento;
 
 /**
- * ·¢ÆğÈË½ÇÉ«£¬´´½¨Ò»¸öº¬ÓĞµ±Ç°µÄÄÚ²¿×´Ì¬µÄ±¸ÍüÂ¼¶ÔÏó£¬Ê¹ÓÃ±¸ÍüÂ¼¶ÔÏó´æ´¢ÆäÄÚ²¿×´Ì¬¡£
+ * å‘èµ·äººè§’è‰²ï¼Œåˆ›å»ºä¸€ä¸ªå«æœ‰å½“å‰çš„å†…éƒ¨çŠ¶æ€çš„å¤‡å¿˜å½•å¯¹è±¡ï¼Œä½¿ç”¨å¤‡å¿˜å½•å¯¹è±¡å­˜å‚¨å…¶å†…éƒ¨çŠ¶æ€ã€‚
  * <p>
  * <a href="Originator.java.html"><i>View Source</i></a>
  * </p>
@@ -18,21 +18,21 @@ package com.niufish.pattern.memento;
 public class Originator {
     
     /**
-     * ×´Ì¬
+     * çŠ¶æ€
      */
     private String _state;
     
     /**
-     * ¹¤³§·½·¨£¬·µ»ØÒ»¸öĞÂµÄ±¸ÍüÂ¼¶ÔÏó
-     * @return ĞÂµÄ±¸ÍüÂ¼¶ÔÏó
+     * å·¥å‚æ–¹æ³•ï¼Œè¿”å›ä¸€ä¸ªæ–°çš„å¤‡å¿˜å½•å¯¹è±¡
+     * @return æ–°çš„å¤‡å¿˜å½•å¯¹è±¡
      */
     public Memento createMemento(){
         return new Memento(_state);
     }
     
     /**
-     * »Ö¸´µ½±¸ÍüÂ¼¶ÔÏóËù¼ÇÔØµÄ×´Ì¬
-     * @param memento ¼ÇÔØ×´Ì¬µÄ±¸ÍüÂ¼¶ÔÏó
+     * æ¢å¤åˆ°å¤‡å¿˜å½•å¯¹è±¡æ‰€è®°è½½çš„çŠ¶æ€
+     * @param memento è®°è½½çŠ¶æ€çš„å¤‡å¿˜å½•å¯¹è±¡
      */
     public void restoreMemento(MementoIF memento){
         _state = ((Memento)memento).getState();
@@ -50,28 +50,28 @@ public class Originator {
     protected class Memento implements MementoIF{
         
         /**
-         * ±£´æµÄ×´Ì¬
+         * ä¿å­˜çš„çŠ¶æ€
          */
         private String _savedState;
         
         /**
-         * ±£´æ·¢ÆğÈËµÄ×´Ì¬
-         * @param someState ·¢ÆğÈËµÄ×´Ì¬
+         * ä¿å­˜å‘èµ·äººçš„çŠ¶æ€
+         * @param someState å‘èµ·äººçš„çŠ¶æ€
          */
         private Memento(String someState){
             _savedState = someState;
         }
         
         /**
-         * ×´Ì¬È¡Öµ
+         * çŠ¶æ€å–å€¼
          */
         public String getState() {
             return _savedState;
         }
         
         /**
-         * ×´Ì¬¸³Öµ 
-         * @param _state ×´Ì¬
+         * çŠ¶æ€èµ‹å€¼ 
+         * @param _state çŠ¶æ€
          */
         public void setState(String _state) {
             this._savedState = _state;

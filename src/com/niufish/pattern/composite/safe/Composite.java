@@ -1,8 +1,8 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.composite.safe
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.composite.safe
  * 
- * ÎÄ¼şÃû³Æ Composite.java
+ * æ–‡ä»¶åç§° Composite.java
  * 
  */
 package com.niufish.pattern.composite.safe;
@@ -12,8 +12,8 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Ê÷Ö¦½ÇÉ«£¬´ú±í²Î¼Ó×éºÏµÄÓĞÏÂ¼¶×Ó¶ÔÏóµÄ¶ÔÏó¡£<br />
- * ÕâÀï¸ø³öÁËËùÓĞ¹ÜÀí×Ó¶ÔÏóµÄ·½·¨
+ * æ ‘æè§’è‰²ï¼Œä»£è¡¨å‚åŠ ç»„åˆçš„æœ‰ä¸‹çº§å­å¯¹è±¡çš„å¯¹è±¡ã€‚<br />
+ * è¿™é‡Œç»™å‡ºäº†æ‰€æœ‰ç®¡ç†å­å¯¹è±¡çš„æ–¹æ³•
  * <p>
  * <a href="Composite.java.html"><i>View Source</i></a>
  * </p>
@@ -23,7 +23,7 @@ import java.util.List;
 public class Composite implements Component {
     
     /**
-     * °üº¬×Ó¶ÔÏóµÄÈİÆ÷
+     * åŒ…å«å­å¯¹è±¡çš„å®¹å™¨
      */
     private List _componentList = new ArrayList();
     
@@ -31,7 +31,7 @@ public class Composite implements Component {
      * @see com.niufish.pattern.composite.safe.Component#operation()
      */
     public void operation() {
-        System.out.println("°²È«ºÏ³É¶ÔÏó:operation");
+        System.out.println("å®‰å…¨åˆæˆå¯¹è±¡:operation");
         Iterator it = _componentList.iterator();
         while (it.hasNext()){
             ((Component)it.next()).operation();
@@ -46,7 +46,7 @@ public class Composite implements Component {
     }
 
     /**
-     * Ôö¼ÓÒ»¸ö×Ó¶ÔÏó
+     * å¢åŠ ä¸€ä¸ªå­å¯¹è±¡
      * @param component
      */
     public void add(Component component){
@@ -54,7 +54,7 @@ public class Composite implements Component {
     }
     
     /**
-     * É¾³ıÒ»¸ö×Ó¶ÔÏó
+     * åˆ é™¤ä¸€ä¸ªå­å¯¹è±¡
      * @param component
      */
     public void remove(Component component){

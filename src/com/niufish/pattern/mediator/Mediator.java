@@ -1,15 +1,15 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.mediator
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.mediator
  * 
- * ÎÄ¼şÃû³Æ Mediator.java
+ * æ–‡ä»¶åç§° Mediator.java
  * 
  */
 package com.niufish.pattern.mediator;
 
 /**
- * ³éÏóµÄµ÷Í£Õß½ÇÉ«<br />
- * Õâ¸ö½Ó¿Ú¸Ğ¾õÃ»ÓĞÊ²Ã´´æÔÚµÄ±ØÒª
+ * æŠ½è±¡çš„è°ƒåœè€…è§’è‰²<br />
+ * è¿™ä¸ªæ¥å£æ„Ÿè§‰æ²¡æœ‰ä»€ä¹ˆå­˜åœ¨çš„å¿…è¦
  * <p>
  * <a href="Mediator.java.html"><i>View Source</i></a>
  * </p>
@@ -19,8 +19,8 @@ package com.niufish.pattern.mediator;
 public interface Mediator {
     
     /**
-     * Ê¾ÒâĞÔµÄÉÌÒµ·½·¨<br />
-     * ±íÏÖÔÚµ÷Í£ÕßÕâÀï¿ÉÒÔĞ­µ÷¸÷Í¬ÊÂÀàµÄ¶¯×÷
+     * ç¤ºæ„æ€§çš„å•†ä¸šæ–¹æ³•<br />
+     * è¡¨ç°åœ¨è°ƒåœè€…è¿™é‡Œå¯ä»¥åè°ƒå„åŒäº‹ç±»çš„åŠ¨ä½œ
      */
     void doSomething();
     

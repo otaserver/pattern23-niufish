@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.mediator
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.mediator
  * 
- * ÎÄ¼şÃû³Æ Colleague.java
+ * æ–‡ä»¶åç§° Colleague.java
  * 
  */
 package com.niufish.pattern.mediator;
 
 /**
- * ³éÏóÍ¬ÊÂ½ÇÉ«£¬´Ë¶ÔÏóÖ»ÖªµÀµ÷Í£Õß¶ø²»ÖªµÀÆäÓàÍ¬ÊÂ¶ÔÏó
+ * æŠ½è±¡åŒäº‹è§’è‰²ï¼Œæ­¤å¯¹è±¡åªçŸ¥é“è°ƒåœè€…è€Œä¸çŸ¥é“å…¶ä½™åŒäº‹å¯¹è±¡
  * <p>
  * <a href="Colleague.java.html"><i>View Source</i></a>
  * </p>
@@ -18,12 +18,12 @@ package com.niufish.pattern.mediator;
 public abstract class Colleague {
     
     /**
-     * ³ÖÓĞµÄµ÷Í£Õß¶ÔÏó
+     * æŒæœ‰çš„è°ƒåœè€…å¯¹è±¡
      */
     private Mediator _mediator;
     
     /**
-     * ³õÊ¼»¯³ÖÓĞµÄµ÷Í£Õß¶ÔÏó
+     * åˆå§‹åŒ–æŒæœ‰çš„è°ƒåœè€…å¯¹è±¡
      * @param med
      */
     public Colleague(Mediator med){
@@ -31,21 +31,21 @@ public abstract class Colleague {
     }
     
     /**
-     * µÃµ½µ÷Í£Õß
-     * @return µ÷Í£Õß
+     * å¾—åˆ°è°ƒåœè€…
+     * @return è°ƒåœè€…
      */
     public Mediator getMediator(){
         return _mediator;
     }
     
     /**
-     * ¶¯×÷£¬ÓÉ×ÓÀàÊµÏÖ
+     * åŠ¨ä½œï¼Œç”±å­ç±»å®ç°
      */
     public abstract void action();
     
     /**
-     * Ê¾ÒâµÄ·½·¨<br />
-     * ¸Ä±ä¶ÔÏóµÄÄÚ²¿×´Ì¬
+     * ç¤ºæ„çš„æ–¹æ³•<br />
+     * æ”¹å˜å¯¹è±¡çš„å†…éƒ¨çŠ¶æ€
      */
     public void change(){
         if (_mediator!=null)

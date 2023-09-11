@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.iterator
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.iterator
  * 
- * ÎÄ¼şÃû³Æ Aggregate.java
+ * æ–‡ä»¶åç§° Aggregate.java
  * 
  */
 package com.niufish.pattern.iterator;
 
 /**
- * ¾Û¼¯½ÇÉ«
+ * èšé›†è§’è‰²
  * <p>
  * <a href="Aggregate.java.html"><i>View Source</i></a>
  * </p>
@@ -18,8 +18,8 @@ package com.niufish.pattern.iterator;
 public interface Aggregate {
     
     /**
-     * ¹¤³§·½·¨£¬´´½¨µü´ú×ÓµÄ½Ó¿Ú
-     * @return µü´ú×Ó
+     * å·¥å‚æ–¹æ³•ï¼Œåˆ›å»ºè¿­ä»£å­çš„æ¥å£
+     * @return è¿­ä»£å­
      */
     Iterator createIterator();
     

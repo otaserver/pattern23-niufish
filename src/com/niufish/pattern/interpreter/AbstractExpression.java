@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.interpreter
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.interpreter
  * 
- * ÎÄ¼şÃû³Æ AbstractExpression.java
+ * æ–‡ä»¶åç§° AbstractExpression.java
  * 
  */
 package com.niufish.pattern.interpreter;
 
 /**
- * ³éÏó±í´ïÊ½½ÇÉ«
+ * æŠ½è±¡è¡¨è¾¾å¼è§’è‰²
  * <p>
  * <a href="AbstractExpression.java.html"><i>View Source</i></a>
  * </p>
@@ -18,7 +18,7 @@ package com.niufish.pattern.interpreter;
 public interface AbstractExpression {
     
     /**
-     * ½âÊÍ²Ù×÷
+     * è§£é‡Šæ“ä½œ
      * @param c
      */
     void interpret(Context c);

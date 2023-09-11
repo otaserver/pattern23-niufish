@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.singleton
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.singleton
  * 
- * ÎÄ¼şÃû³Æ Singleton.java
+ * æ–‡ä»¶åç§° Singleton.java
  * 
  */
 package com.niufish.pattern.singleton;
 
 /**
- * Ïß³Ì°²È«µÄµ¥Àı
+ * çº¿ç¨‹å®‰å…¨çš„å•ä¾‹
  * <p>
  * <a href="Singleton.java.html"><i>View Source</i></a>
  * </p>
@@ -18,20 +18,20 @@ package com.niufish.pattern.singleton;
 public class Singleton {
     
     /**
-     * ³ÖÓĞµÄ×Ô¼º
+     * æŒæœ‰çš„è‡ªå·±
      */
     private static Singleton _uniqueInstance = null;
     
     /**
-     * Ë½ÓĞ¹¹Ôì×Ó£¬±£Ö¤Íâ½çÎŞ·¨Ö±½ÓÊµÀı»¯
+     * ç§æœ‰æ„é€ å­ï¼Œä¿è¯å¤–ç•Œæ— æ³•ç›´æ¥å®ä¾‹åŒ–
      */
     private Singleton(){
         System.out.println("Singleton initialized");
     }
     
     /**
-     * ¾²Ì¬¹¤³§·½·¨£¬·µ»Ø´ËÀàµÄÎ¨Ò»ÊµÀı
-     * @return ×Ô¼º
+     * é™æ€å·¥å‚æ–¹æ³•ï¼Œè¿”å›æ­¤ç±»çš„å”¯ä¸€å®ä¾‹
+     * @return è‡ªå·±
      */
     synchronized public static Singleton getInstance(){
         if (_uniqueInstance==null){

@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.proxy
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.proxy
  * 
- * ÎÄ¼şÃû³Æ RealSubject.java
+ * æ–‡ä»¶åç§° RealSubject.java
  * 
  */
 package com.niufish.pattern.proxy;
 
 /**
- * ÕæÕı¸É»îµÄÀà
+ * çœŸæ­£å¹²æ´»çš„ç±»
  * <p>
  * <a href="RealSubject.java.html"><i>View Source</i></a>
  * </p>
@@ -18,15 +18,15 @@ package com.niufish.pattern.proxy;
 public class RealSubject implements Subject {
     
     /**
-     * ×öÕâ
+     * åšè¿™
      */
     private void doThis(){
-        System.out.print("ÉÕ±ıµÄ¼Û¸ñ£º");
+        System.out.print("çƒ§é¥¼çš„ä»·æ ¼ï¼š");
     }
 
     /**
-     * ×öÄÇ£¬·´Õı¸ÉÁË²»ÉÙÊÂÇé
-     * @return ³É±¾
+     * åšé‚£ï¼Œåæ­£å¹²äº†ä¸å°‘äº‹æƒ…
+     * @return æˆæœ¬
      */
     private int doThat(){
         return 2;

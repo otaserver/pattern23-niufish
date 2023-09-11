@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.visitor
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.visitor
  * 
- * ÎÄ¼şÃû³Æ Client.java
+ * æ–‡ä»¶åç§° Client.java
  * 
  */
 package com.niufish.pattern.visitor;
 
 /**
- * ²âÊÔÀà
+ * æµ‹è¯•ç±»
  * <p>
  * <a href="Client.java.html"><i>View Source</i></a>
  * </p>
@@ -23,6 +23,6 @@ public class Client {
         os.add(new ConcreteElementB());
         
         Visitor visitor = new ConcreteVisitorA();
-        os.action(visitor);//·ÃÎÊÕß·ÃÎÊËùÓĞµÄÔªËØ
+        os.action(visitor);//è®¿é—®è€…è®¿é—®æ‰€æœ‰çš„å…ƒç´ 
     }
 }

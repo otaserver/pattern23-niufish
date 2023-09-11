@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.decorator
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.decorator
  * 
- * ÎÄ¼şÃû³Æ ConcreteDecoratorA.java
+ * æ–‡ä»¶åç§° ConcreteDecoratorA.java
  * 
  */
 package com.niufish.pattern.decorator;
 
 /**
- * ÔÚConcreteComponentÀàÖ®Ç°À©Õ¹¹¦ÄÜµÄÀàA
+ * åœ¨ConcreteComponentç±»ä¹‹å‰æ‰©å±•åŠŸèƒ½çš„ç±»A
  * <p>
  * <a href="ConcreteDecoratorA.java.html"><i>View Source</i></a>
  * </p>
@@ -18,14 +18,14 @@ package com.niufish.pattern.decorator;
 public class ConcreteDecoratorA extends Decorator {
 
     /**
-     * @param myC ±»×°ÈëµÄComponent¶ÔÏó
+     * @param myC è¢«è£…å…¥çš„Componentå¯¹è±¡
      */
     public ConcreteDecoratorA(Component myC) {
         super(myC);
     }
 
     /**
-     * Ìí¼Ó×Ô¼ºµÄ²Ù×÷ºóÔËĞĞÆäËü
+     * æ·»åŠ è‡ªå·±çš„æ“ä½œåè¿è¡Œå…¶å®ƒ
      * @see com.niufish.pattern.decorator.Component#operation()
      */
     public void operation(){

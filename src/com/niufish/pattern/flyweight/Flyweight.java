@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.flyweight
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.flyweight
  * 
- * ÎÄ¼şÃû³Æ Flyweight.java
+ * æ–‡ä»¶åç§° Flyweight.java
  * 
  */
 package com.niufish.pattern.flyweight;
 
 /**
- * ³éÏóÏíÔª½ÇÉ«£¬¹æ¶¨¾ßÌåÏíÔª½ÇÉ«µÄ½Ó¿Ú¡£
+ * æŠ½è±¡äº«å…ƒè§’è‰²ï¼Œè§„å®šå…·ä½“äº«å…ƒè§’è‰²çš„æ¥å£ã€‚
  * <p>
  * <a href="Flyweight.java.html"><i>View Source</i></a>
  * </p>
@@ -18,8 +18,8 @@ package com.niufish.pattern.flyweight;
 public abstract class Flyweight {
     
     /**
-     * ²âÊÔ·½·¨
-     * @param extrinsicState ÍâÔÌ×´Ì¬
+     * æµ‹è¯•æ–¹æ³•
+     * @param extrinsicState å¤–è•´çŠ¶æ€
      */
     abstract public void operation(String extrinsicState);
 }

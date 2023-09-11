@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.singleton
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.singleton
  * 
- * ÎÄ¼şÃû³Æ RegSingletonChild.java
+ * æ–‡ä»¶åç§° RegSingletonChild.java
  * 
  */
 package com.niufish.pattern.singleton;
 
 /**
- * ¿É¼Ì³Ğµ¥ÀıµÄ×ÓÀà
+ * å¯ç»§æ‰¿å•ä¾‹çš„å­ç±»
  * <p>
  * <a href="RegSingletonChild.java.html"><i>View Source</i></a>
  * </p>
@@ -22,8 +22,8 @@ public class RegSingletonChild extends RegSingleton {
     }
     
     /**
-     * ¾²Ì¬¹¤³§·½·¨£¬·µ»Ø´ËÀàµÄÎ¨Ò»ÊµÀı
-     * @return ×Ô¼º
+     * é™æ€å·¥å‚æ–¹æ³•ï¼Œè¿”å›æ­¤ç±»çš„å”¯ä¸€å®ä¾‹
+     * @return è‡ªå·±
      */
     static public RegSingletonChild getInstance(){
         return (RegSingletonChild)RegSingleton.getInstance("com.niufish.pattern.singleton.RegSingletonChild");

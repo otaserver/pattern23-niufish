@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.proxy
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.proxy
  * 
- * ÎÄ¼şÃû³Æ Subject.java
+ * æ–‡ä»¶åç§° Subject.java
  * 
  */
 package com.niufish.pattern.proxy;
 
 /**
- * ³éÏóµÄ½Ó¿Ú
+ * æŠ½è±¡çš„æ¥å£
  * <p>
  * <a href="Subject.java.html"><i>View Source</i></a>
  * </p>
@@ -18,8 +18,8 @@ package com.niufish.pattern.proxy;
 public interface Subject {
     
     /**
-     * ÇëÇó·½·¨
-     * @return Ç®Êı
+     * è¯·æ±‚æ–¹æ³•
+     * @return é’±æ•°
      */
     int request();
 }

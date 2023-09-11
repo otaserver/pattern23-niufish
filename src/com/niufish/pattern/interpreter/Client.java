@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.interpreter
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.interpreter
  * 
- * ÎÄ¼şÃû³Æ Client.java
+ * æ–‡ä»¶åç§° Client.java
  * 
  */
 package com.niufish.pattern.interpreter;
 
 /**
- * ²âÊÔÀà
+ * æµ‹è¯•ç±»
  * <p>
  * <a href="Client.java.html"><i>View Source</i></a>
  * </p>

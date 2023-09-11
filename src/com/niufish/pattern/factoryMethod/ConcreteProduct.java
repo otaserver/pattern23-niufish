@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.factoryMethod
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.factoryMethod
  * 
- * ÎÄ¼şÃû³Æ ConcreteProduct.java
+ * æ–‡ä»¶åç§° ConcreteProduct.java
  * 
  */
 package com.niufish.pattern.factoryMethod;
 
 /**
- * ¾ßÌå²úÆ·
+ * å…·ä½“äº§å“
  * <p>
  * <a href="ConcreteProduct.java.html"><i>View Source</i></a>
  * </p>

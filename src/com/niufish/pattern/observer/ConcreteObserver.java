@@ -1,8 +1,8 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.observer
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.observer
  * 
- * ÎÄ¼şÃû³Æ ConcreteObserver.java
+ * æ–‡ä»¶åç§° ConcreteObserver.java
  * 
  */
 package com.niufish.pattern.observer;
@@ -11,7 +11,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 /**
- * ¾ßÌå¹Û²ìÕß
+ * å…·ä½“è§‚å¯Ÿè€…
  * <p>
  * <a href="ConcreteObserver.java.html"><i>View Source</i></a>
  * </p>
@@ -21,7 +21,7 @@ import java.util.Observer;
 public class ConcreteObserver implements Observer {
     
     /**
-     * ºÍ±»¼àÊÓµÄ¶ÔÏó¹Ò¹³
+     * å’Œè¢«ç›‘è§†çš„å¯¹è±¡æŒ‚é’©
      * @param cs
      */
     public ConcreteObserver(ConcreteSubject cs){
@@ -29,7 +29,7 @@ public class ConcreteObserver implements Observer {
     }
     
     /**
-     * ¸üĞÂ×Ô¼º
+     * æ›´æ–°è‡ªå·±
      * @see java.util.Observer#update(java.util.Observable, java.lang.Object)
      */
     public void update(Observable o, Object arg) {

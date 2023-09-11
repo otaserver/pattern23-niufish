@@ -1,16 +1,16 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.abstractFactory
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.abstractFactory
  * 
- * ÎÄ¼şÃû³Æ ConcreteFactory1.java
+ * æ–‡ä»¶åç§° ConcreteFactory1.java
  * 
  */
 package com.niufish.pattern.abstractFactory;
 
 /**
- * ±¾½ÇÉ«Ö±½ÓÔÚ¿Í»§¶ËµÄµ÷ÓÃÏÂ´´½¨²úÆ·µÄÊµÀı¡£
- * Õâ¸ö½ÇÉ«º¬ÓĞÑ¡ÔñºÏÊÊµÄ²úÆ·¶ÔÏóµÄÂß¼­£¬
- * ¶øÕâ¸öÂß¼­ÊÊÓÚÓ¦ÓÃÏµÍ³µÄÉÌÒµÂß¼­½ôÃÜÏà¹ØµÄ¡£
+ * æœ¬è§’è‰²ç›´æ¥åœ¨å®¢æˆ·ç«¯çš„è°ƒç”¨ä¸‹åˆ›å»ºäº§å“çš„å®ä¾‹ã€‚
+ * è¿™ä¸ªè§’è‰²å«æœ‰é€‰æ‹©åˆé€‚çš„äº§å“å¯¹è±¡çš„é€»è¾‘ï¼Œ
+ * è€Œè¿™ä¸ªé€»è¾‘é€‚äºåº”ç”¨ç³»ç»Ÿçš„å•†ä¸šé€»è¾‘ç´§å¯†ç›¸å…³çš„ã€‚
  * <p>
  * <a href="ConcreteFactory1.java.html"><i>View Source</i></a>
  * </p>

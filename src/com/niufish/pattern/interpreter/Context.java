@@ -1,15 +1,15 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.interpreter
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.interpreter
  * 
- * ÎÄ¼şÃû³Æ Context.java
+ * æ–‡ä»¶åç§° Context.java
  * 
  */
 package com.niufish.pattern.interpreter;
 
 /**
- * »·¾³½ÇÉ«£¬Ìá¹©½âÊÍÆ÷Ö®ÍâµÄÒ»Ğ©È«¾ÖĞÅÏ¢<br />
- * ÕâÀïÃ»ÓĞÓÃµ½
+ * ç¯å¢ƒè§’è‰²ï¼Œæä¾›è§£é‡Šå™¨ä¹‹å¤–çš„ä¸€äº›å…¨å±€ä¿¡æ¯<br />
+ * è¿™é‡Œæ²¡æœ‰ç”¨åˆ°
  * <p>
  * <a href="Context.java.html"><i>View Source</i></a>
  * </p>

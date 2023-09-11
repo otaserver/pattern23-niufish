@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.command
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.command
  * 
- * ÎÄ¼şÃû³Æ Invoker.java
+ * æ–‡ä»¶åç§° Invoker.java
  * 
  */
 package com.niufish.pattern.command;
 
 /**
- * ÇëÇóÕß£¬¸ºÔğµ÷ÓÃÃüÁî¶ÔÏóÖ´ĞĞÇëÇó
+ * è¯·æ±‚è€…ï¼Œè´Ÿè´£è°ƒç”¨å‘½ä»¤å¯¹è±¡æ‰§è¡Œè¯·æ±‚
  * <p>
  * <a href="Invoker.java.html"><i>View Source</i></a>
  * </p>
@@ -18,20 +18,20 @@ package com.niufish.pattern.command;
 public class Invoker {
     
     /**
-     * ³ÖÓĞµÄÃüÁî¶ÔÏó
+     * æŒæœ‰çš„å‘½ä»¤å¯¹è±¡
      */
     private Command _command;
     
     /**
-     * ³õÊ¼»¯³ÖÓĞµÄÃüÁî¶ÔÏó
-     * @param command ÃüÁî¶ÔÏó
+     * åˆå§‹åŒ–æŒæœ‰çš„å‘½ä»¤å¯¹è±¡
+     * @param command å‘½ä»¤å¯¹è±¡
      */
     public Invoker(Command command){
         _command = command;
     }
     
     /**
-     * ĞĞ¶¯·½·¨
+     * è¡ŒåŠ¨æ–¹æ³•
      */
     public void action(){
         _command.execute();

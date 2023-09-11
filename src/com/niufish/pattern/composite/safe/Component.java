@@ -1,16 +1,16 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.composite.safe
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.composite.safe
  * 
- * ÎÄ¼şÃû³Æ Component.java
+ * æ–‡ä»¶åç§° Component.java
  * 
  */
 package com.niufish.pattern.composite.safe;
 
 /**
- * ³éÏó¹¹¼ş½ÇÉ«£¬Ëü¸ø²Î¼Ó×éºÏµÄ¶ÔÏó¶¨Òå³ö¹«¹²µÄ½Ó¿Ú¼°ÆäÄ¬ÈÏĞĞÎª£¬
- * ¿ÉÒÔÓÃÀ´¹ÜÀíËùÓĞµÄ×Ó¶ÔÏó¡£<br />
- * ÔÚ°²È«Ê½µÄºÏ³ÉÄ£Ê½Àï£¬ÕâÀï²»¶¨Òå³ö¹ÜÀí×Ó¶ÔÏóµÄ·½·¨£¬ÕâÒ»¶¨ÒåÓÖÊ÷Ö¦¶ÔÏó¸ø³ö
+ * æŠ½è±¡æ„ä»¶è§’è‰²ï¼Œå®ƒç»™å‚åŠ ç»„åˆçš„å¯¹è±¡å®šä¹‰å‡ºå…¬å…±çš„æ¥å£åŠå…¶é»˜è®¤è¡Œä¸ºï¼Œ
+ * å¯ä»¥ç”¨æ¥ç®¡ç†æ‰€æœ‰çš„å­å¯¹è±¡ã€‚<br />
+ * åœ¨å®‰å…¨å¼çš„åˆæˆæ¨¡å¼é‡Œï¼Œè¿™é‡Œä¸å®šä¹‰å‡ºç®¡ç†å­å¯¹è±¡çš„æ–¹æ³•ï¼Œè¿™ä¸€å®šä¹‰åˆæ ‘æå¯¹è±¡ç»™å‡º
  * <p>
  * <a href="Component.java.html"><i>View Source</i></a>
  * </p>
@@ -20,13 +20,13 @@ package com.niufish.pattern.composite.safe;
 public interface Component {
     
     /**
-     * Ä³ÖÖ²Ù×÷
+     * æŸç§æ“ä½œ
      */
     void operation();
 
     /**
-     * ·µ»Ø×Ô¼ºµÄÊµÀı
-     * @return ×Ô¼ºµÄÊµÀı
+     * è¿”å›è‡ªå·±çš„å®ä¾‹
+     * @return è‡ªå·±çš„å®ä¾‹
      */
     Composite getComposite();
     

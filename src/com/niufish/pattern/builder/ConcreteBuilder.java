@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.builder
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.builder
  * 
- * ÎÄ¼şÃû³Æ ConcreteBuilder.java
+ * æ–‡ä»¶åç§° ConcreteBuilder.java
  * 
  */
 package com.niufish.pattern.builder;
 
 /**
- * ¾ßÌå½¨ÔìÕß£¬ÓëÓ¦ÓÃ³ÌĞò½ôÃÜÏà¹ØµÄÒ»Ğ©Àà
+ * å…·ä½“å»ºé€ è€…ï¼Œä¸åº”ç”¨ç¨‹åºç´§å¯†ç›¸å…³çš„ä¸€äº›ç±»
  * <p>
  * <a href="ConcreteBuilder.java.html"><i>View Source</i></a>
  * </p>

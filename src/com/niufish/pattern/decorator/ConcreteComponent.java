@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.decorator
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.decorator
  * 
- * ÎÄ¼şÃû³Æ ConcreteComponent.java
+ * æ–‡ä»¶åç§° ConcreteComponent.java
  * 
  */
 package com.niufish.pattern.decorator;
 
 /**
- * ÊµÏÖ¾ßÌå¹¦ÄÜµÄÖ÷Àà
+ * å®ç°å…·ä½“åŠŸèƒ½çš„ä¸»ç±»
  * <p>
  * <a href="ConcreteComponent.java.html"><i>View Source</i></a>
  * </p>

@@ -1,15 +1,15 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.state
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.state
  * 
- * ÎÄ¼şÃû³Æ ConcreteStateA.java
+ * æ–‡ä»¶åç§° ConcreteStateA.java
  * 
  */
 package com.niufish.pattern.state;
 
 /**
- * ¾ßÌå×´Ì¬½ÇÉ«<br />
- * ´Ë´¦ÎªÅÜµÃ×´Ì¬
+ * å…·ä½“çŠ¶æ€è§’è‰²<br />
+ * æ­¤å¤„ä¸ºè·‘å¾—çŠ¶æ€
  * <p>
  * <a href="ConcreteStateA.java.html"><i>View Source</i></a>
  * </p>
@@ -22,7 +22,7 @@ public class ConcreteStateA implements State {
      * @see com.niufish.pattern.state.State#Handle()
      */
     public void Handle() {
-        System.out.println("Æø´­ÓõÓõ");
+        System.out.println("æ°”å–˜åå");
     }
 
 }

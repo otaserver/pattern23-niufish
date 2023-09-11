@@ -1,8 +1,8 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.adapter.forObject
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.adapter.forObject
  * 
- * ÎÄ¼şÃû³Æ Adapter.java
+ * æ–‡ä»¶åç§° Adapter.java
  * 
  */
 package com.niufish.pattern.adapter.forObject;
@@ -11,7 +11,7 @@ import com.niufish.pattern.adapter.forClass.Adaptee;
 import com.niufish.pattern.adapter.forClass.Target;
 
 /**
- * ÊÊÅäÆ÷½ÇÉ«£¬ÓëÀàÊÊÅäÆ÷ÓĞËùÇø±ğ
+ * é€‚é…å™¨è§’è‰²ï¼Œä¸ç±»é€‚é…å™¨æœ‰æ‰€åŒºåˆ«
  * <p>
  * <a href="Adapter.java.html"><i>View Source</i></a>
  * </p>
@@ -21,13 +21,13 @@ import com.niufish.pattern.adapter.forClass.Target;
 public class Adapter implements Target {
     
     /**
-     * ³ÖÓĞµÄ´ıÊÊÅä¶ÔÏó
+     * æŒæœ‰çš„å¾…é€‚é…å¯¹è±¡
      */
     private Adaptee _adaptee;
     
     /**
-     * ³õÊ¼»¯³ÖÓĞµÄÊÊÅä¶ÔÏó
-     * @param adaptee ÊÊÅä¶ÔÏó
+     * åˆå§‹åŒ–æŒæœ‰çš„é€‚é…å¯¹è±¡
+     * @param adaptee é€‚é…å¯¹è±¡
      */
     public Adapter(Adaptee adaptee){
         _adaptee = adaptee;

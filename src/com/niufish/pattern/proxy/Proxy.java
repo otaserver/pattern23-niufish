@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.proxy
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.proxy
  * 
- * ÎÄ¼şÃû³Æ Proxy.java
+ * æ–‡ä»¶åç§° Proxy.java
  * 
  */
 package com.niufish.pattern.proxy;
 
 /**
- * °Ç²ãÆ¤µÄ´úÀí
+ * æ‰’å±‚çš®çš„ä»£ç†
  * <p>
  * <a href="Proxy.java.html"><i>View Source</i></a>
  * </p>
@@ -18,7 +18,7 @@ package com.niufish.pattern.proxy;
 public class Proxy implements Subject {
     
     /**
-     * ³ÖÓĞµÄÕæÕı¸É»îµÄÀà
+     * æŒæœ‰çš„çœŸæ­£å¹²æ´»çš„ç±»
      */
     private RealSubject _realSubject;
     

@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.chainOfResponsibility
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.chainOfResponsibility
  * 
- * ÎÄ¼şÃû³Æ ConcreteHandler2.java
+ * æ–‡ä»¶åç§° ConcreteHandler2.java
  * 
  */
 package com.niufish.pattern.chainOfResponsibility;
 
 /**
- * ¾ßÌå´¦ÀíÕß2
+ * å…·ä½“å¤„ç†è€…2
  * <p>
  * <a href="ConcreteHandler2.java.html"><i>View Source</i></a>
  * </p>
@@ -22,10 +22,10 @@ public class ConcreteHandler2 extends Handler {
      */
     public void handleRequest() {
         if (getSuccessor()!=null){
-            System.out.println("ConcreteHandler2µÄÏÂ¼ÒÊÇ:"+getSuccessor());
+            System.out.println("ConcreteHandler2çš„ä¸‹å®¶æ˜¯:"+getSuccessor());
             getSuccessor().handleRequest();
         }else{
-            System.out.println("ConcreteHandler2½áÊøÁË");
+            System.out.println("ConcreteHandler2ç»“æŸäº†");
         }
     }
     

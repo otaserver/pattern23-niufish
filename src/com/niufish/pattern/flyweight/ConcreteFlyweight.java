@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.flyweight
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.flyweight
  * 
- * ÎÄ¼şÃû³Æ ConcreteFlyweight.java
+ * æ–‡ä»¶åç§° ConcreteFlyweight.java
  * 
  */
 package com.niufish.pattern.flyweight;
 
 /**
- * ¾ßÌåÏíÔª½ÇÉ«
+ * å…·ä½“äº«å…ƒè§’è‰²
  * <p>
  * <a href="ConcreteFlyweight.java.html"><i>View Source</i></a>
  * </p>
@@ -18,12 +18,12 @@ package com.niufish.pattern.flyweight;
 public class ConcreteFlyweight extends Flyweight {
     
     /**
-     * ÀàµÄÄÚÔÌ
+     * ç±»çš„å†…è•´
      */
-    private String _intrinsicState = "±¾À´µÄ¶«Î÷";
+    private String _intrinsicState = "æœ¬æ¥çš„ä¸œè¥¿";
     
     /**
-     * ¹¹ÔìµÄÊ±ºòÀ´¸öÌáÊ¾
+     * æ„é€ çš„æ—¶å€™æ¥ä¸ªæç¤º
      */
     public ConcreteFlyweight(){
         System.out.println("ConcreteFlyweight init");
@@ -32,7 +32,7 @@ public class ConcreteFlyweight extends Flyweight {
      * @see com.niufish.pattern.flyweight.Flyweight#operation(java.lang.String)
      */
     public void operation(String extrinsicState) {
-        System.out.println("ConcreteFlyweight:ÄÚÔÌ["+_intrinsicState+"] ÍâÔÌ["+extrinsicState+"]");
+        System.out.println("ConcreteFlyweight:å†…è•´["+_intrinsicState+"] å¤–è•´["+extrinsicState+"]");
     }
 
 }

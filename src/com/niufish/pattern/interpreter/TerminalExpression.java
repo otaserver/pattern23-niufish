@@ -1,15 +1,15 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.interpreter
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.interpreter
  * 
- * ÎÄ¼şÃû³Æ TerminalExpression.java
+ * æ–‡ä»¶åç§° TerminalExpression.java
  * 
  */
 package com.niufish.pattern.interpreter;
 
 /**
- * ÖÕ½á±í´ïÊ½ <br />
- * ´Ë´¦ÎªÒ»°ãÓï¾ä
+ * ç»ˆç»“è¡¨è¾¾å¼ <br />
+ * æ­¤å¤„ä¸ºä¸€èˆ¬è¯­å¥
  * <p>
  * <a href="TerminalExpression.java.html"><i>View Source</i></a>
  * </p>
@@ -19,13 +19,13 @@ package com.niufish.pattern.interpreter;
 public class TerminalExpression implements AbstractExpression {
     
     /**
-     * ³ÖÓĞµÄÓï¾ä
+     * æŒæœ‰çš„è¯­å¥
      */
     private String _statement;
     
     /**
-     * ³õÊ¼»¯³ÖÓĞ¶ÔÏó
-     * @param stat Óï¾äµÄ×Ö·û´®
+     * åˆå§‹åŒ–æŒæœ‰å¯¹è±¡
+     * @param stat è¯­å¥çš„å­—ç¬¦ä¸²
      */
     public TerminalExpression(String stat){
         _statement = stat;

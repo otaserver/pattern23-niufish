@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.decorator
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.decorator
  * 
- * ÎÄ¼şÃû³Æ Decorator.java
+ * æ–‡ä»¶åç§° Decorator.java
  * 
  */
 package com.niufish.pattern.decorator;
 
 /**
- * ×°ÊÎÕß
+ * è£…é¥°è€…
  * <p>
  * <a href="Decorator.java.html"><i>View Source</i></a>
  * </p>
@@ -18,12 +18,12 @@ package com.niufish.pattern.decorator;
 public abstract class Decorator implements Component {
     
     /**
-     * Ò»¸ö´æ·ÅµÄÈİÆ÷
+     * ä¸€ä¸ªå­˜æ”¾çš„å®¹å™¨
      */
     private Component myComp;
     
     /**
-     * @param myC ±»×°ÈëµÄComponent¶ÔÏó
+     * @param myC è¢«è£…å…¥çš„Componentå¯¹è±¡
      */
     public Decorator(Component myC){
         myComp = myC;

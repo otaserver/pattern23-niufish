@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.bridge
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.bridge
  * 
- * ÎÄ¼şÃû³Æ Abstraction.java
+ * æ–‡ä»¶åç§° Abstraction.java
  * 
  */
 package com.niufish.pattern.bridge;
 
 /**
- * ¶Ô³éÏó×ö³ö¶¨Òå£¬²¢¶¨ÒåÊµÏÖµÄÒıÓÃ
+ * å¯¹æŠ½è±¡åšå‡ºå®šä¹‰ï¼Œå¹¶å®šä¹‰å®ç°çš„å¼•ç”¨
  * <p>
  * <a href="Abstraction.java.html"><i>View Source</i></a>
  * </p>
@@ -18,12 +18,12 @@ package com.niufish.pattern.bridge;
 public abstract class Abstraction {
     
     /**
-     * ÊµÏÖ
+     * å®ç°
      */
     private Implementor _imp = null;
     
     /**
-     * ÓëÊµÏÖ¹Ò¹³
+     * ä¸å®ç°æŒ‚é’©
      * @param imp
      */
     public Abstraction(Implementor imp){
@@ -35,7 +35,7 @@ public abstract class Abstraction {
     }
     
     /**
-     * ²Ù×÷
+     * æ“ä½œ
      */
     public abstract void operation();
 }

@@ -1,8 +1,8 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.flyweight
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.flyweight
  * 
- * ÎÄ¼şÃû³Æ FlyweightFactory.java
+ * æ–‡ä»¶åç§° FlyweightFactory.java
  * 
  */
 package com.niufish.pattern.flyweight;
@@ -10,7 +10,7 @@ package com.niufish.pattern.flyweight;
 import java.util.HashMap;
 
 /**
- * ÏíÔª¹¤³§½ÇÉ«£¬¸ºÔğ´´½¨ºÍ¹ÜÀíÏíÔª½ÇÉ«¡£
+ * äº«å…ƒå·¥å‚è§’è‰²ï¼Œè´Ÿè´£åˆ›å»ºå’Œç®¡ç†äº«å…ƒè§’è‰²ã€‚
  * <p>
  * <a href="FlyweightFactory.java.html"><i>View Source</i></a>
  * </p>
@@ -20,17 +20,17 @@ import java.util.HashMap;
 public class FlyweightFactory {
     
     /**
-     * ³ÖÓĞµÄÏíÔª¶ÔÏó
+     * æŒæœ‰çš„äº«å…ƒå¯¹è±¡
      */
     private HashMap _flies = new HashMap();
     
     /**
-     * µÃµ½ÏíÔª¶ÔÏó£¬Èç¹ûÔ­ÏÈ³õÊ¼»¯¾ÍÖ±½Ó´Ó_fliesÀïÃæµÃµ½
-     * @param createWhichClass ĞèÒª½¨Á¢µÄ¶ÔÏóµÄÀàÃû
-     * @return ÏíÔª¶ÔÏó
-     * @throws ClassNotFoundException ÀàÃ»ÕÒµ½Òì³£
-     * @throws IllegalAccessException ·ÃÎÊÒì³£
-     * @throws InstantiationException  ³õÊ¼»¯Òì³£
+     * å¾—åˆ°äº«å…ƒå¯¹è±¡ï¼Œå¦‚æœåŸå…ˆåˆå§‹åŒ–å°±ç›´æ¥ä»_fliesé‡Œé¢å¾—åˆ°
+     * @param createWhichClass éœ€è¦å»ºç«‹çš„å¯¹è±¡çš„ç±»å
+     * @return äº«å…ƒå¯¹è±¡
+     * @throws ClassNotFoundException ç±»æ²¡æ‰¾åˆ°å¼‚å¸¸
+     * @throws IllegalAccessException è®¿é—®å¼‚å¸¸
+     * @throws InstantiationException  åˆå§‹åŒ–å¼‚å¸¸
      */
     public Flyweight getFlyweight(String createWhichClass) throws InstantiationException, IllegalAccessException, ClassNotFoundException{
         if (_flies.containsKey(createWhichClass)){

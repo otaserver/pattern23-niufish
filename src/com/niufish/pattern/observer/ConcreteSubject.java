@@ -1,8 +1,8 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.observer
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.observer
  * 
- * ÎÄ¼şÃû³Æ ConcreteSubject.java
+ * æ–‡ä»¶åç§° ConcreteSubject.java
  * 
  */
 package com.niufish.pattern.observer;
@@ -10,7 +10,7 @@ package com.niufish.pattern.observer;
 import java.util.Observable;
 
 /**
- * ¾ßÌåµÄ±»¹Û²ìÕß
+ * å…·ä½“çš„è¢«è§‚å¯Ÿè€…
  * <p>
  * <a href="ConcreteSubject.java.html"><i>View Source</i></a>
  * </p>
@@ -20,20 +20,20 @@ import java.util.Observable;
 public class ConcreteSubject extends Observable {
     
     /**
-     * ³ÖÓĞµÄÊı¾İ
+     * æŒæœ‰çš„æ•°æ®
      */
     private String _data = "";
     
     /**
-     * @return ³ÖÓĞµÄÊı¾İ
+     * @return æŒæœ‰çš„æ•°æ®
      */
     public String getData() {
         return _data;
     }
     
     /**
-     * ¸ÄÖµ
-     * @param data ĞÂµÄÖµ
+     * æ”¹å€¼
+     * @param data æ–°çš„å€¼
      */
     public void setData(String data) {
         if (!this._data.equals(data)){

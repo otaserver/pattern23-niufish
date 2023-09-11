@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.visitor
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.visitor
  * 
- * ÎÄ¼şÃû³Æ ConcreteElementA.java
+ * æ–‡ä»¶åç§° ConcreteElementA.java
  * 
  */
 package com.niufish.pattern.visitor;
 
 /**
- * ¾ßÌåÔªËØA
+ * å…·ä½“å…ƒç´ A
  * <p>
  * <a href="ConcreteElementA.java.html"><i>View Source</i></a>
  * </p>
@@ -25,8 +25,8 @@ public class ConcreteElementA implements Element {
     }
     
     /**
-     * ÌØÓĞµÄ·½·¨
-     * @return Ò»×Ö·û´®
+     * ç‰¹æœ‰çš„æ–¹æ³•
+     * @return ä¸€å­—ç¬¦ä¸²
      */
     public String operationA(){
         return "operation from A";

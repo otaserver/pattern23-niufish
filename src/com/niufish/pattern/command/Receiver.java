@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.command
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.command
  * 
- * ÎÄ¼şÃû³Æ Receiver.java
+ * æ–‡ä»¶åç§° Receiver.java
  * 
  */
 package com.niufish.pattern.command;
 
 /**
- * ½ÓÊÕÕß£¬¸ºÔğ¾ßÌåÊµÊ©ºÍÖ´ĞĞÒ»¸öÇëÇó¡£ÈÎºÎÒ»¸öÀà¶¼¿ÉÒÔ³ÉÎª½ÓÊÕÕß£¬ÊµÊ©ºÍÖ´ĞĞÇëÇóµÄ·½·¨½Ğ×öĞĞ¶¯·½·¨¡£
+ * æ¥æ”¶è€…ï¼Œè´Ÿè´£å…·ä½“å®æ–½å’Œæ‰§è¡Œä¸€ä¸ªè¯·æ±‚ã€‚ä»»ä½•ä¸€ä¸ªç±»éƒ½å¯ä»¥æˆä¸ºæ¥æ”¶è€…ï¼Œå®æ–½å’Œæ‰§è¡Œè¯·æ±‚çš„æ–¹æ³•å«åšè¡ŒåŠ¨æ–¹æ³•ã€‚
  * <p>
  * <a href="Receiver.java.html"><i>View Source</i></a>
  * </p>
@@ -18,7 +18,7 @@ package com.niufish.pattern.command;
 public class Receiver {
     
     /**
-     * ĞĞ¶¯·½·¨
+     * è¡ŒåŠ¨æ–¹æ³•
      */
     public void action(){
         System.out.println("Action has been taken");

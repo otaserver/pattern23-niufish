@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.templateMethod
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.templateMethod
  * 
- * ÎÄ¼şÃû³Æ AbstractClass.java
+ * æ–‡ä»¶åç§° AbstractClass.java
  * 
  */
 package com.niufish.pattern.templateMethod;
 
 /**
- * ³éÏóÄ£°æ½ÇÉ«
+ * æŠ½è±¡æ¨¡ç‰ˆè§’è‰²
  * <p>
  * <a href="AbstractClass.java.html"><i>View Source</i></a>
  * </p>
@@ -18,8 +18,8 @@ package com.niufish.pattern.templateMethod;
 public abstract class AbstractClass {
     
     /**
-     * Ä£°æ·½·¨<br />
-     * ¸ø³öÂß¼­µÄ¹Ç¼Ü
+     * æ¨¡ç‰ˆæ–¹æ³•<br />
+     * ç»™å‡ºé€»è¾‘çš„éª¨æ¶
      */
     public void templateMethod(){
         primitiveOperation1();
@@ -27,12 +27,12 @@ public abstract class AbstractClass {
     }
 
     /**
-     * »ù±¾²Ù×÷1£¬×ÓÀàĞëÊµÏÖ
+     * åŸºæœ¬æ“ä½œ1ï¼Œå­ç±»é¡»å®ç°
      */
     protected abstract void primitiveOperation1();
 
     /**
-     * »ù±¾²Ù×÷2£¬×ÓÀàĞëÊµÏÖ
+     * åŸºæœ¬æ“ä½œ2ï¼Œå­ç±»é¡»å®ç°
      */
     protected abstract void primitiveOperation2();
 

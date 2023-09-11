@@ -1,8 +1,8 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.adapter.forObject
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.adapter.forObject
  * 
- * ÎÄ¼şÃû³Æ Client.java
+ * æ–‡ä»¶åç§° Client.java
  * 
  */
 package com.niufish.pattern.adapter.forObject;
@@ -11,7 +11,7 @@ import com.niufish.pattern.adapter.forClass.Adaptee;
 import com.niufish.pattern.adapter.forClass.Target;
 
 /**
- * ²âÊÔÀà
+ * æµ‹è¯•ç±»
  * <p>
  * <a href="Client.java.html"><i>View Source</i></a>
  * </p>

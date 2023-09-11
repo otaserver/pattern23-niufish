@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.factoryMethod
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.factoryMethod
  * 
- * ÎÄ¼şÃû³Æ Product.java
+ * æ–‡ä»¶åç§° Product.java
  * 
  */
 package com.niufish.pattern.factoryMethod;
 
 /**
- * ³éÏó²úÆ·½ÇÉ«£¬¹¤³§·½·¨Ä£Ê½Ëù´´½¨µÄ¶ÔÏóµÄ³¬Àà£¬Ò²¾ÍÊÇ²úÆ·¶ÔÏóµÄ¹²Í¬¸¸Àà¡£
+ * æŠ½è±¡äº§å“è§’è‰²ï¼Œå·¥å‚æ–¹æ³•æ¨¡å¼æ‰€åˆ›å»ºçš„å¯¹è±¡çš„è¶…ç±»ï¼Œä¹Ÿå°±æ˜¯äº§å“å¯¹è±¡çš„å…±åŒçˆ¶ç±»ã€‚
  * <p>
  * <a href="Product.java.html"><i>View Source</i></a>
  * </p>

@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.strategy
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.strategy
  * 
- * ÎÄ¼şÃû³Æ Context.java
+ * æ–‡ä»¶åç§° Context.java
  * 
  */
 package com.niufish.pattern.strategy;
 
 /**
- * »·¾³½ÇÉ«£¬³ÖÓĞÒ»¸öStrategyµÄÒıÓÃ
+ * ç¯å¢ƒè§’è‰²ï¼ŒæŒæœ‰ä¸€ä¸ªStrategyçš„å¼•ç”¨
  * <p>
  * <a href="Context.java.html"><i>View Source</i></a>
  * </p>
@@ -18,28 +18,28 @@ package com.niufish.pattern.strategy;
 public class Context {
     
     /**
-     * ³ÖÓĞµÄ²ßÂÔ¶ÔÏó
+     * æŒæœ‰çš„ç­–ç•¥å¯¹è±¡
      */
     private Strategy _strategy;
     
     /**
-     * ÓÃÓÚ³õÊ¼»¯³ÖÓĞµÄ¶ÔÏó
-     * @param strategy ÊµÀı»¯µÄ²ßÂÔ¶ÔÏó
+     * ç”¨äºåˆå§‹åŒ–æŒæœ‰çš„å¯¹è±¡
+     * @param strategy å®ä¾‹åŒ–çš„ç­–ç•¥å¯¹è±¡
      */
     public Context(Strategy strategy){
         _strategy = strategy;
     }
     
     /**
-     * ÉèÖÃ³ÖÓĞµÄ¶ÔÏó
-     * @param _strategy ÊµÀı»¯µÄ²ßÂÔ¶ÔÏó
+     * è®¾ç½®æŒæœ‰çš„å¯¹è±¡
+     * @param _strategy å®ä¾‹åŒ–çš„ç­–ç•¥å¯¹è±¡
      */
     public void setStrategy(Strategy _strategy) {
         this._strategy = _strategy;
     }
 
     /**
-     * ²ßÂÔ·½·¨
+     * ç­–ç•¥æ–¹æ³•
      */
     public void contextInterface(){
         _strategy.algorithmInterface();

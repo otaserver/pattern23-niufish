@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.facade
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.facade
  * 
- * ÎÄ¼şÃû³Æ SubSystem1.java
+ * æ–‡ä»¶åç§° SubSystem1.java
  * 
  */
 package com.niufish.pattern.facade;
 
 /**
- * ×ÓÏµÍ³Àà1
+ * å­ç³»ç»Ÿç±»1
  * <p>
  * <a href="SubSystem1.java.html"><i>View Source</i></a>
  * </p>
@@ -18,7 +18,7 @@ package com.niufish.pattern.facade;
 public class SubSystem1 {
     
     /**
-     * ²âÊÔ·½·¨
+     * æµ‹è¯•æ–¹æ³•
      */
     public void operation(){
         System.out.println("SubSystem1");

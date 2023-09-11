@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.bridge
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.bridge
  * 
- * ÎÄ¼şÃû³Æ Implementor.java
+ * æ–‡ä»¶åç§° Implementor.java
  * 
  */
 package com.niufish.pattern.bridge;
 
 /**
- * ¸ø³öÊµÏÖµÄ½Ó¿Ú£¬Ö÷Òª¸ºÔğµ×²ã²Ù×÷¡£
+ * ç»™å‡ºå®ç°çš„æ¥å£ï¼Œä¸»è¦è´Ÿè´£åº•å±‚æ“ä½œã€‚
  * <p>
  * <a href="Implementor.java.html"><i>View Source</i></a>
  * </p>
@@ -18,7 +18,7 @@ package com.niufish.pattern.bridge;
 public interface Implementor {
     
     /**
-     * ²Ù×÷ÊµÏÖ·½·¨
+     * æ“ä½œå®ç°æ–¹æ³•
      * @param inputText
      */
     void operationImp(String inputText);

@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.prototype
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.prototype
  * 
- * ÎÄ¼şÃû³Æ ConcretePrototype1.java
+ * æ–‡ä»¶åç§° ConcretePrototype1.java
  * 
  */
 package com.niufish.pattern.prototype;
 
 /**
- * ¾ßÌåµÄÔ­Ê¼Ä£ĞÍÀà1
+ * å…·ä½“çš„åŸå§‹æ¨¡å‹ç±»1
  * <p>
  * <a href="ConcretePrototype1.java.html"><i>View Source</i></a>
  * </p>
@@ -28,7 +28,7 @@ public class ConcretePrototype1 implements Cloneable {
     }
     
     /**
-     * ¿ËÂ¡·½·¨
+     * å…‹éš†æ–¹æ³•
      * @see java.lang.Object#clone()
      */
     public Object clone(){

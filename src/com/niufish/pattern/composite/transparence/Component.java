@@ -1,16 +1,16 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.composite.transparence
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.composite.transparence
  * 
- * ÎÄ¼şÃû³Æ Component.java
+ * æ–‡ä»¶åç§° Component.java
  * 
  */
 package com.niufish.pattern.composite.transparence;
 
 
 /**
- * ³éÏó¹¹¼ş½ÇÉ«£¬Ëü¸ø²Î¼Ó×éºÏµÄÀà¶¨Òå³ö¹«¹²µÄ½Ó¿Ú¼°ÆäÄ¬ÈÏĞĞÎª£¬
- * ÕâÀï°üÀ¨¹ÜÀíËùÓĞµÄ×Ó¶ÔÏóµÄ½Ó¿Ú¶¨Òå¡£<br />
+ * æŠ½è±¡æ„ä»¶è§’è‰²ï¼Œå®ƒç»™å‚åŠ ç»„åˆçš„ç±»å®šä¹‰å‡ºå…¬å…±çš„æ¥å£åŠå…¶é»˜è®¤è¡Œä¸ºï¼Œ
+ * è¿™é‡ŒåŒ…æ‹¬ç®¡ç†æ‰€æœ‰çš„å­å¯¹è±¡çš„æ¥å£å®šä¹‰ã€‚<br />
  * <p>
  * <a href="Component.java.html"><i>View Source</i></a>
  * </p>
@@ -20,19 +20,19 @@ package com.niufish.pattern.composite.transparence;
 public interface Component {
     
     /**
-     * Ä³ÖÖ²Ù×÷
+     * æŸç§æ“ä½œ
      */
     void operation();
 
     /**
-     * Ôö¼ÓÒ»¸ö×Ó¶ÔÏó
-     * @param component ×Ó¶ÔÏó
+     * å¢åŠ ä¸€ä¸ªå­å¯¹è±¡
+     * @param component å­å¯¹è±¡
      */
     void add(Component component);
     
     /**
-     * É¾³ıÒ»¸ö×Ó¶ÔÏó
-     * @param component ×Ó¶ÔÏó
+     * åˆ é™¤ä¸€ä¸ªå­å¯¹è±¡
+     * @param component å­å¯¹è±¡
      */
     void remove(Component component);
 }

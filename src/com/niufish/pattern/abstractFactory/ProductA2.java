@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.abstractFactory
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.abstractFactory
  * 
- * ÎÄ¼şÃû³Æ ProductA2.java
+ * æ–‡ä»¶åç§° ProductA2.java
  * 
  */
 package com.niufish.pattern.abstractFactory;
 
 /**
- * ĞèÒª´´½¨µÄA¾ßÌå²úÆ·
+ * éœ€è¦åˆ›å»ºçš„Aå…·ä½“äº§å“
  * <p>
  * <a href="ProductA2.java.html"><i>View Source</i></a>
  * </p>

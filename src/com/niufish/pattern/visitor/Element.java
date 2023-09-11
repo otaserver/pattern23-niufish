@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.visitor
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.visitor
  * 
- * ÎÄ¼şÃû³Æ Element.java
+ * æ–‡ä»¶åç§° Element.java
  * 
  */
 package com.niufish.pattern.visitor;
 
 /**
- * ³éÏóÔªËØ½ÇÉ«
+ * æŠ½è±¡å…ƒç´ è§’è‰²
  * <p>
  * <a href="Element.java.html"><i>View Source</i></a>
  * </p>
@@ -18,8 +18,8 @@ package com.niufish.pattern.visitor;
 public interface Element {
     
     /**
-     * ½ÓÊÜ·ÃÎÊÕßµÄ·½·¨
-     * @param visitor ·ÃÎÊÕß
+     * æ¥å—è®¿é—®è€…çš„æ–¹æ³•
+     * @param visitor è®¿é—®è€…
      */
     void accept(Visitor visitor);
 

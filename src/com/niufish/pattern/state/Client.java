@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.state
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.state
  * 
- * ÎÄ¼şÃû³Æ Client.java
+ * æ–‡ä»¶åç§° Client.java
  * 
  */
 package com.niufish.pattern.state;
 
 /**
- * ²âÊÔÀà
+ * æµ‹è¯•ç±»
  * <p>
  * <a href="Client.java.html"><i>View Source</i></a>
  * </p>
@@ -19,9 +19,9 @@ public class Client {
 
     public static void main(String[] args) {
         Context c = new Context();
-        c.setState(new ConcreteStateA());//¿ªÊ¼ÅÜ
+        c.setState(new ConcreteStateA());//å¼€å§‹è·‘
         c.request();
-        c.setState(new ConcreteStateB());//¿ªÊ¼×ß
+        c.setState(new ConcreteStateB());//å¼€å§‹èµ°
         c.request();
     }
 }

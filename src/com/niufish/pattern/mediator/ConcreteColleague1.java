@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.mediator
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.mediator
  * 
- * ÎÄ¼şÃû³Æ ConcreteColleague1.java
+ * æ–‡ä»¶åç§° ConcreteColleague1.java
  * 
  */
 package com.niufish.pattern.mediator;
 
 /**
- * ¾ßÌåµÄÍ¬ÊÂÀà1
+ * å…·ä½“çš„åŒäº‹ç±»1
  * <p>
  * <a href="ConcreteColleague1.java.html"><i>View Source</i></a>
  * </p>
@@ -20,7 +20,7 @@ public class ConcreteColleague1 extends Colleague {
     private String _helloWords = "happy new year!";
 
     /**
-     * @param med µ÷Í£Õß
+     * @param med è°ƒåœè€…
      */
     public ConcreteColleague1(Mediator med) {
         super(med);

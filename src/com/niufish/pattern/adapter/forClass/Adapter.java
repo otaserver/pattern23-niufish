@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.adapter.forClass
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.adapter.forClass
  * 
- * ÎÄ¼şÃû³Æ Adapter.java
+ * æ–‡ä»¶åç§° Adapter.java
  * 
  */
 package com.niufish.pattern.adapter.forClass;
 
 /**
- * ÊÊÅäÆ÷½ÇÉ«£¬´ËÄ£Ê½µÄºËĞÄ¡£
+ * é€‚é…å™¨è§’è‰²ï¼Œæ­¤æ¨¡å¼çš„æ ¸å¿ƒã€‚
  * <p>
  * <a href="Adapter.java.html"><i>View Source</i></a>
  * </p>
@@ -18,7 +18,7 @@ package com.niufish.pattern.adapter.forClass;
 public class Adapter extends Adaptee implements Target {
 
     /**
-     * ÊÊÅäºóµÄ·½·¨
+     * é€‚é…åçš„æ–¹æ³•
      * @see com.niufish.pattern.adapter.forClass.Target#request()
      */
     public void request() {

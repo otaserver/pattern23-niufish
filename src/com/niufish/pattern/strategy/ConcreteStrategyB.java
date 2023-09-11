@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.strategy
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.strategy
  * 
- * ÎÄ¼şÃû³Æ ConcreteStrategyA.java
+ * æ–‡ä»¶åç§° ConcreteStrategyA.java
  * 
  */
 package com.niufish.pattern.strategy;
 
 /**
- * ¾ßÌå²ßÂÔ½ÇÉ«B£¬°ü×°Ïà¹ØµÄËã·¨ºÍĞĞÎª
+ * å…·ä½“ç­–ç•¥è§’è‰²Bï¼ŒåŒ…è£…ç›¸å…³çš„ç®—æ³•å’Œè¡Œä¸º
  * <p>
  * <a href="ConcreteStrategyB.java.html"><i>View Source</i></a>
  * </p>

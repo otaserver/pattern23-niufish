@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.factoryMethod
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.factoryMethod
  * 
- * ÎÄ¼şÃû³Æ ConcreteCreator.java
+ * æ–‡ä»¶åç§° ConcreteCreator.java
  * 
  */
 package com.niufish.pattern.factoryMethod;
 
 /**
- * ¾ßÌå¹¤³§£¬´ËÀàÖĞ°üº¬ÓÚÓ¦ÓÃÃÜÇĞÏà¹ØµÄÂß¼­£¬²¢ÇÒÊÜµ½Ó¦ÓÃ³ÌĞòµÄµ÷ÓÃÒÔ´´½¨²úÆ·¶ÔÏó¡£
+ * å…·ä½“å·¥å‚ï¼Œæ­¤ç±»ä¸­åŒ…å«äºåº”ç”¨å¯†åˆ‡ç›¸å…³çš„é€»è¾‘ï¼Œå¹¶ä¸”å—åˆ°åº”ç”¨ç¨‹åºçš„è°ƒç”¨ä»¥åˆ›å»ºäº§å“å¯¹è±¡ã€‚
  * <p>
  * <a href="ConcreteCreator.java.html"><i>View Source</i></a>
  * </p>

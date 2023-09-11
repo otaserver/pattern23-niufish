@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.memento
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.memento
  * 
- * ÎÄ¼şÃû³Æ MementoIF.java
+ * æ–‡ä»¶åç§° MementoIF.java
  * 
  */
 package com.niufish.pattern.memento;
 
 /**
- * ±¸ÍüÂ¼µÄÕ­½Ó¿Ú
+ * å¤‡å¿˜å½•çš„çª„æ¥å£
  * <p>
  * <a href="MementoIF.java.html"><i>View Source</i></a>
  * </p>

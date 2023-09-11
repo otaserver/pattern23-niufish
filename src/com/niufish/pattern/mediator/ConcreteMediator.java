@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.mediator
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.mediator
  * 
- * ÎÄ¼şÃû³Æ ConcreteMediator.java
+ * æ–‡ä»¶åç§° ConcreteMediator.java
  * 
  */
 package com.niufish.pattern.mediator;
 
 /**
- * ¾ßÌåµÄµ÷Í£Õß
+ * å…·ä½“çš„è°ƒåœè€…
  * <p>
  * <a href="ConcreteMediator.java.html"><i>View Source</i></a>
  * </p>
@@ -18,19 +18,19 @@ package com.niufish.pattern.mediator;
 public class ConcreteMediator implements Mediator {
     
     /**
-     * ³ÖÓĞµÄÍ¬ÊÂ1
+     * æŒæœ‰çš„åŒäº‹1
      */
     private ConcreteColleague1 _col1;
     
     /**
-     * ³ÖÓĞµÄÍ¬ÊÂ2
+     * æŒæœ‰çš„åŒäº‹2
      */
     private ConcreteColleague2 _col2;
     
     /**
-     * ³õÊ¼»¯³ÖÓĞµÄ¶ÔÏó
-     * @param c1 Í¬ÊÂ1
-     * @param c2 Í¬ÊÂ2
+     * åˆå§‹åŒ–æŒæœ‰çš„å¯¹è±¡
+     * @param c1 åŒäº‹1
+     * @param c2 åŒäº‹2
      */
     public void introColleagues(ConcreteColleague1 c1,ConcreteColleague2 c2){
         this._col1 = c1;

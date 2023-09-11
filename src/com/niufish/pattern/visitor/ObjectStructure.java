@@ -1,8 +1,8 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.visitor
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.visitor
  * 
- * ÎÄ¼şÃû³Æ ObjectStructure.java
+ * æ–‡ä»¶åç§° ObjectStructure.java
  * 
  */
 package com.niufish.pattern.visitor;
@@ -12,7 +12,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * ½á¹¹¶ÔÏó½ÇÉ«
+ * ç»“æ„å¯¹è±¡è§’è‰²
  * <p>
  * <a href="ObjectStructure.java.html"><i>View Source</i></a>
  * </p>
@@ -22,19 +22,19 @@ import java.util.List;
 public class ObjectStructure {
     
     /**
-     * ³ÖÓĞµÄÔªËØµÄ¾Û¼¯
+     * æŒæœ‰çš„å…ƒç´ çš„èšé›†
      */
     private List _elements;
     
     /**
-     * ³õÊ¼»¯ÔªËØµÄ¾Û¼¯
+     * åˆå§‹åŒ–å…ƒç´ çš„èšé›†
      */
     public ObjectStructure(){
         _elements = new ArrayList();
     }
     
     /**
-     * Ö´ĞĞ·ÃÎÊ²Ù×÷
+     * æ‰§è¡Œè®¿é—®æ“ä½œ
      * @param visitor
      */
     public void action(Visitor visitor){
@@ -46,8 +46,8 @@ public class ObjectStructure {
     }
     
     /**
-     * Ôö¼ÓÒ»¸öĞÂµÄÔªËØ
-     * @param el ĞÂµÄÔªËØ
+     * å¢åŠ ä¸€ä¸ªæ–°çš„å…ƒç´ 
+     * @param el æ–°çš„å…ƒç´ 
      */
     public void add(Element el){
         _elements.add(el);

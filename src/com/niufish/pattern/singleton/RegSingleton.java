@@ -1,8 +1,8 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.singleton
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.singleton
  * 
- * ÎÄ¼şÃû³Æ RegSingleton.java
+ * æ–‡ä»¶åç§° RegSingleton.java
  * 
  */
 package com.niufish.pattern.singleton;
@@ -10,7 +10,7 @@ package com.niufish.pattern.singleton;
 import java.util.HashMap;
 
 /**
- * ¿É¼Ì³Ğµ¥Àı£¬µ«ÊÇ×ÓÀà²»ÄÜ¹»Ê¹Ïß³Ì°²È«
+ * å¯ç»§æ‰¿å•ä¾‹ï¼Œä½†æ˜¯å­ç±»ä¸èƒ½å¤Ÿä½¿çº¿ç¨‹å®‰å…¨
  * <p>
  * <a href="RegSingleton.java.html"><i>View Source</i></a>
  * </p>
@@ -20,21 +20,21 @@ import java.util.HashMap;
 public class RegSingleton {
     
     /**
-     * ËùÓĞÊµÀı»¯ÁËµÄÀà
+     * æ‰€æœ‰å®ä¾‹åŒ–äº†çš„ç±»
      */
     static private HashMap _registry = new HashMap();
     
     /**
-     * ±£»¤µÄ¹¹Ôì×Ó
+     * ä¿æŠ¤çš„æ„é€ å­
      */
     protected RegSingleton(){ 
         System.out.println("RegSingleton initialized");
     }
     
     /**
-     * ¾²Ì¬¹¤³§·½·¨£¬·µ»Ø´ËÀàµÄÎ¨Ò»ÊµÀı
-     * @param name ÒªµÄÄÇ¸öÀàÃû×Ö
-     * @return ÒªµÄÄÇ¸öÀà
+     * é™æ€å·¥å‚æ–¹æ³•ï¼Œè¿”å›æ­¤ç±»çš„å”¯ä¸€å®ä¾‹
+     * @param name è¦çš„é‚£ä¸ªç±»åå­—
+     * @return è¦çš„é‚£ä¸ªç±»
      */
     static public RegSingleton getInstance(String name){
         if (name==null){

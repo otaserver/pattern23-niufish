@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.adapter.forClass
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.adapter.forClass
  * 
- * ÎÄ¼şÃû³Æ Adaptee.java
+ * æ–‡ä»¶åç§° Adaptee.java
  * 
  */
 package com.niufish.pattern.adapter.forClass;
 
 /**
- * ´ıÊÊÅä½ÇÉ«£¬ÏÖÓĞĞèÒªÊÊÅäµÄ½Ó¿Ú
+ * å¾…é€‚é…è§’è‰²ï¼Œç°æœ‰éœ€è¦é€‚é…çš„æ¥å£
  * <p>
  * <a href="Adaptee.java.html"><i>View Source</i></a>
  * </p>
@@ -18,7 +18,7 @@ package com.niufish.pattern.adapter.forClass;
 public class Adaptee {
     
     /**
-     * ´ıÊÊÅäµÄ·½·¨
+     * å¾…é€‚é…çš„æ–¹æ³•
      */
     public void specificRequest(){
         System.out.println("Adaptee work");

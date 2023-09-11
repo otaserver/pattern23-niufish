@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.composite.safe
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.composite.safe
  * 
- * ÎÄ¼şÃû³Æ Client.java
+ * æ–‡ä»¶åç§° Client.java
  * 
  */
 package com.niufish.pattern.composite.transparence;
 
 /**
- * ²âÊÔÀà
+ * æµ‹è¯•ç±»
  * <p>
  * <a href="Client.java.html"><i>View Source</i></a>
  * </p>
@@ -20,7 +20,7 @@ public class Client {
     public static void main(String[] args) {
         Component c = new Composite();
         Component l1 = new Leaf();
-        l1.add(new Leaf());//´Ë¾ä»°Ã»ÓĞÈÎºÎÒâÒå
+        l1.add(new Leaf());//æ­¤å¥è¯æ²¡æœ‰ä»»ä½•æ„ä¹‰
         c.add(l1);
         c.add(new Leaf());
         

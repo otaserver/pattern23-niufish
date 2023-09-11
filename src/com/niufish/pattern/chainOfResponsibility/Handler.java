@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.chainOfResponsibility
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.chainOfResponsibility
  * 
- * ÎÄ¼şÃû³Æ Handler.java
+ * æ–‡ä»¶åç§° Handler.java
  * 
  */
 package com.niufish.pattern.chainOfResponsibility;
 
 /**
- * ³éÏó´¦ÀíÕß½ÇÉ«
+ * æŠ½è±¡å¤„ç†è€…è§’è‰²
  * <p>
  * <a href="Handler.java.html"><i>View Source</i></a>
  * </p>
@@ -18,26 +18,26 @@ package com.niufish.pattern.chainOfResponsibility;
 public abstract class Handler {
     
     /**
-     * ³ÖÓĞµÄÏÂ¼Ò
+     * æŒæœ‰çš„ä¸‹å®¶
      */
     protected Handler _successor;
     
     /**
-     * µ÷ÓÃ´Ë·½·¨´¦ÀíÇëÇó
+     * è°ƒç”¨æ­¤æ–¹æ³•å¤„ç†è¯·æ±‚
      */
     public abstract void handleRequest();
     
     /**
-     * ÉèÖÃÏÂ¼Ò
-     * @param successor ÏÂ¼Ò
+     * è®¾ç½®ä¸‹å®¶
+     * @param successor ä¸‹å®¶
      */
     public void setSuccessor(Handler successor){
         _successor = successor;
     }
     
     /**
-     * µÃµ½ÏÂ¼Ò
-     * @return ÏÂ¼Ò
+     * å¾—åˆ°ä¸‹å®¶
+     * @return ä¸‹å®¶
      */
     public Handler getSuccessor(){
         return _successor;

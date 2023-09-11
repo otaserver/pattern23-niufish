@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.visitor
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.visitor
  * 
- * ÎÄ¼şÃû³Æ ConcreteVisitorA.java
+ * æ–‡ä»¶åç§° ConcreteVisitorA.java
  * 
  */
 package com.niufish.pattern.visitor;
 
 /**
- * ¾ßÌå·ÃÎÊÕßA½ÇÉ«
+ * å…·ä½“è®¿é—®è€…Aè§’è‰²
  * <p>
  * <a href="ConcreteVisitorA.java.html"><i>View Source</i></a>
  * </p>

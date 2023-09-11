@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.command
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.command
  * 
- * ÎÄ¼şÃû³Æ Command.java
+ * æ–‡ä»¶åç§° Command.java
  * 
  */
 package com.niufish.pattern.command;
 
 /**
- * ÉùÃ÷ÁËÒ»¸ö¸ø³öËùÓĞ¾ßÌåÃüÁîÀàµÄ³éÏó½Ó¿Ú
+ * å£°æ˜äº†ä¸€ä¸ªç»™å‡ºæ‰€æœ‰å…·ä½“å‘½ä»¤ç±»çš„æŠ½è±¡æ¥å£
  * <p>
  * <a href="Command.java.html"><i>View Source</i></a>
  * </p>
@@ -18,13 +18,13 @@ package com.niufish.pattern.command;
 public interface Command {
     
     /**
-     * Ö´ĞĞµÄ³éÏó
+     * æ‰§è¡Œçš„æŠ½è±¡
      */
     void execute();
     
     /**
-     * È¡ÏûµÄ³éÏó
-     * TODO Íê³ÉÈ¡ÏûÖ´ĞĞµÄ´úÂë
+     * å–æ¶ˆçš„æŠ½è±¡
+     * TODO å®Œæˆå–æ¶ˆæ‰§è¡Œçš„ä»£ç 
      */
     void unexecute();
     

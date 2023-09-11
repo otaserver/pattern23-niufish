@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.state
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.state
  * 
- * ÎÄ¼şÃû³Æ Context.java
+ * æ–‡ä»¶åç§° Context.java
  * 
  */
 package com.niufish.pattern.state;
 
 /**
- * »·¾³½ÇÉ«
+ * ç¯å¢ƒè§’è‰²
  * <p>
  * <a href="Context.java.html"><i>View Source</i></a>
  * </p>
@@ -18,20 +18,20 @@ package com.niufish.pattern.state;
 public class Context {
     
     /**
-     * ³ÖÓĞµÄ×´Ì¬
+     * æŒæœ‰çš„çŠ¶æ€
      */
     private State _state;
     
     /**
-     * Ä³Ğ©²Ù×÷
+     * æŸäº›æ“ä½œ
      */
     public void request(){
         _state.Handle();
     }
     
     /**
-     * ¸Ä±ä×´Ì¬
-     * @param state ×´Ì¬
+     * æ”¹å˜çŠ¶æ€
+     * @param state çŠ¶æ€
      */
     public void setState(State state){
         _state = state;

@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.composite.safe
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.composite.safe
  * 
- * ÎÄ¼şÃû³Æ Leaf.java
+ * æ–‡ä»¶åç§° Leaf.java
  * 
  */
 package com.niufish.pattern.composite.safe;
 
 /**
- * Ê÷Ò¶Àà£¬´ËÀàÃ»ÓĞÏÂ¼¶¶ÔÏó£¬¶¨Òå³ö²Î¼Ó×éºÏµÄÕæÕı¡°Ä³ÖÖ²Ù×÷¡±
+ * æ ‘å¶ç±»ï¼Œæ­¤ç±»æ²¡æœ‰ä¸‹çº§å¯¹è±¡ï¼Œå®šä¹‰å‡ºå‚åŠ ç»„åˆçš„çœŸæ­£â€œæŸç§æ“ä½œâ€
  * <p>
  * <a href="Leaf.java.html"><i>View Source</i></a>
  * </p>
@@ -21,7 +21,7 @@ public class Leaf implements Component {
      * @see com.niufish.pattern.composite.safe.Component#operation()
      */
     public void operation() {
-        System.out.println("°²È«Ê÷Ò¶¶ÔÏó:operation");
+        System.out.println("å®‰å…¨æ ‘å¶å¯¹è±¡:operation");
     }
 
     /**

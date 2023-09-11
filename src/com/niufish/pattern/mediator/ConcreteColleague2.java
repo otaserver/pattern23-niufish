@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.mediator
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.mediator
  * 
- * ÎÄ¼şÃû³Æ ConcreteColleague2.java
+ * æ–‡ä»¶åç§° ConcreteColleague2.java
  * 
  */
 package com.niufish.pattern.mediator;
 
 /**
- * ¾ßÌåµÄÍ¬ÊÂÀà2
+ * å…·ä½“çš„åŒäº‹ç±»2
  * <p>
  * <a href="ConcreteColleague2.java.html"><i>View Source</i></a>
  * </p>
@@ -18,7 +18,7 @@ package com.niufish.pattern.mediator;
 public class ConcreteColleague2 extends Colleague {
 
     /**
-     * @param med µ÷Í£Õß
+     * @param med è°ƒåœè€…
      */
     public ConcreteColleague2(Mediator med) {
         super(med);

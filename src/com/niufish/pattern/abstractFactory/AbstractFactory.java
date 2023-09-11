@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.abstractFactory
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.abstractFactory
  * 
- * ÎÄ¼şÃû³Æ AbstractFactory.java
+ * æ–‡ä»¶åç§° AbstractFactory.java
  * 
  */
 package com.niufish.pattern.abstractFactory;
 
 /**
- * ´ËÀàÊÇ³éÏó¹¤³§·½·¨Ä£Ê½µÄºËĞÄ
+ * æ­¤ç±»æ˜¯æŠ½è±¡å·¥å‚æ–¹æ³•æ¨¡å¼çš„æ ¸å¿ƒ
  * 
  * <p>
  * <a href="AbstractFactory.java.html"><i>View Source</i></a>
@@ -20,14 +20,14 @@ package com.niufish.pattern.abstractFactory;
 public interface AbstractFactory {
     
     /**
-     * ²úÉú²úÆ·A
-     * @return ²úÆ·A
+     * äº§ç”Ÿäº§å“A
+     * @return äº§å“A
      */
     AbstractProductA createProductA();
     
     /**
-     * ²úÉú²úÆ·B
-     * @return ²úÆ·B
+     * äº§ç”Ÿäº§å“B
+     * @return äº§å“B
      */
     AbstractProductB createProductB();
 

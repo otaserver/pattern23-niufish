@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.visitor
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.visitor
  * 
- * ÎÄ¼şÃû³Æ Visitor.java
+ * æ–‡ä»¶åç§° Visitor.java
  * 
  */
 package com.niufish.pattern.visitor;
 
 /**
- * ³éÏó·ÃÎÊÕß½ÇÉ«£¬ÉùÃ÷Ò»¸ö»ò¶à¸ö·ÃÎÊ²Ù×÷
+ * æŠ½è±¡è®¿é—®è€…è§’è‰²ï¼Œå£°æ˜ä¸€ä¸ªæˆ–å¤šä¸ªè®¿é—®æ“ä½œ
  * <p>
  * <a href="Visitor.java.html"><i>View Source</i></a>
  * </p>
@@ -18,14 +18,14 @@ package com.niufish.pattern.visitor;
 public interface Visitor {
     
     /**
-     * ¶ÔÓÚConcreteElementAµÄ·ÃÎÊ²Ù×÷
-     * @param cea ¾ßÌåÔªËØ
+     * å¯¹äºConcreteElementAçš„è®¿é—®æ“ä½œ
+     * @param cea å…·ä½“å…ƒç´ 
      */
     void visit(ConcreteElementA cea);
 
     /**
-     * ¶ÔÓÚConcreteElementBµÄ·ÃÎÊ²Ù×÷
-     * @param ceb ¾ßÌåÔªËØ
+     * å¯¹äºConcreteElementBçš„è®¿é—®æ“ä½œ
+     * @param ceb å…·ä½“å…ƒç´ 
      */
     void visit(ConcreteElementB ceb);
 

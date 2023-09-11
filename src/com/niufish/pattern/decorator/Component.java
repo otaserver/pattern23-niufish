@@ -1,14 +1,14 @@
 /*
- * ÏîÄ¿Ãû³Æ Pattern
- * °üÃû³Æ   com.niufish.pattern.decorator
+ * é¡¹ç›®åç§° Pattern
+ * åŒ…åç§°   com.niufish.pattern.decorator
  * 
- * ÎÄ¼şÃû³Æ Component.java
+ * æ–‡ä»¶åç§° Component.java
  * 
  */
 package com.niufish.pattern.decorator;
 
 /**
- * Ò»¸ö¿ÉÒÔÀ©Õ¹¹¦ÄÜµÄ¶ÔÏó½Ó¿Ú
+ * ä¸€ä¸ªå¯ä»¥æ‰©å±•åŠŸèƒ½çš„å¯¹è±¡æ¥å£
  * <p>
  * <a href="Component.java.html"><i>View Source</i></a>
  * </p>
@@ -18,7 +18,7 @@ package com.niufish.pattern.decorator;
 public interface Component {
     
     /**
-     * Ä³ÖÖ²Ù×÷
+     * æŸç§æ“ä½œ
      */
     public void operation();
     
