@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../../../../stylesheet.css" TITLE="Style">
+<META NAME="GENERATOR" CONTENT="Java2HTML Version 1.3.1">
+<TITLE>com.niufish.pattern.interpreter.TerminalExpression (Java2HTML)</TITLE>
+</HEAD>
+<BODY><TABLE id="Header" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" width="33%">&nbsp;</td>
+<td align="center" colspan="2" width="33%">
+<font size="4">TerminalExpression.java</font>
+</td>
+<td align="right" colspan="2" width="33%">&nbsp;</td>
+</tr>
+</TABLE>
+<pre ID="Classes">
+<A NAME="1"></A><FONT ID="MultiLineComment">/*
+<A NAME="2"></A> * 项目名称 Pattern
+<A NAME="3"></A> * 包名称   com.niufish.pattern.interpreter
+<A NAME="4"></A> * 
+<A NAME="5"></A> * 文件名称 TerminalExpression.java
+<A NAME="6"></A> * 
+<A NAME="7"></A> */</FONT>
+<A NAME="8"></A><FONT ID="Package">package</FONT> <A HREF="../../../../com.niufish.pattern.interpreter.index.html" target="packageFrame">com.niufish.pattern.interpreter</A>;
+<A NAME="9"></A>
+<A NAME="10"></A><FONT ID="FormalComment">/**
+<A NAME="11"></A> * 终结表达式 &lt;br /&gt;
+<A NAME="12"></A> * 此处为一般语句
+<A NAME="13"></A> * &lt;p&gt;
+<A NAME="14"></A> * &lt;a href="TerminalExpression.java.html"&gt;&lt;i&gt;View Source&lt;/i&gt;&lt;/a&gt;
+<A NAME="15"></A> * &lt;/p&gt;
+<A NAME="16"></A> * @author  Kingfish
+<A NAME="17"></A> * @version 1.0
+<A NAME="18"></A> */</FONT>
+<A NAME="19"></A><FONT ID="Public">public</FONT> <FONT ID="Class">class</FONT> TerminalExpression <FONT ID="Implements">implements</FONT> <A HREF="../../../../com/niufish/pattern/interpreter/AbstractExpression.java.html">AbstractExpression</A> {
+<A NAME="20"></A>    
+<A NAME="21"></A>    <FONT ID="FormalComment">/**
+<A NAME="22"></A>     * 持有的语句
+<A NAME="23"></A>     */</FONT>
+<A NAME="24"></A>    <FONT ID="Private">private</FONT> String _statement;
+<A NAME="25"></A>    
+<A NAME="26"></A>    <FONT ID="FormalComment">/**
+<A NAME="27"></A>     * 初始化持有对象
+<A NAME="28"></A>     * @param stat 语句的字符串
+<A NAME="29"></A>     */</FONT>
+<A NAME="30"></A>    <FONT ID="Public">public</FONT> TerminalExpression(String stat){
+<A NAME="31"></A>        _statement = stat;
+<A NAME="32"></A>    }
+<A NAME="33"></A>
+<A NAME="34"></A>    <FONT ID="FormalComment">/**
+<A NAME="35"></A>     * @see com.niufish.pattern.interpreter.AbstractExpression#interpret(com.niufish.pattern.interpreter.Context)
+<A NAME="36"></A>     */</FONT>
+<A NAME="37"></A>    <FONT ID="Public">public</FONT> <FONT ID="Void">void</FONT> interpret(<A HREF="../../../../com/niufish/pattern/interpreter/Context.java.html">Context</A> c) {
+<A NAME="38"></A>        System.out.println(_statement);
+<A NAME="39"></A>    }
+<A NAME="40"></A>
+<A NAME="41"></A>}
+<A NAME="42"></A></pre><TABLE id="Header" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" width="33%">&nbsp;</td>
+<td align="center" colspan="2" width="33%">
+<font size="4">TerminalExpression.java</font>
+</td>
+<td align="right" colspan="2" width="33%">&nbsp;</td>
+</tr>
+</TABLE>
+
+</BODY>
+</HTML>

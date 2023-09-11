@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc destdir="doc/api" access="private" use="true" notree="false" nonavbar="false" noindex="false" splitindex="true" author="true" version="true" nodeprecatedlist="false" nodeprecated="false" packagenames="com.niufish.pattern.adapter.forObject,com.niufish.pattern.flyweight,com.niufish.pattern.decorator,com.niufish.pattern.adapter.forClass,com.niufish.pattern.abstractFactory,com.niufish.pattern.bridge,com.niufish.pattern.singleton,com.niufish.pattern.builder,com.niufish.pattern.iterator,com.niufish.pattern.visitor,com.niufish.pattern.memento,com.niufish.pattern.chainOfResponsibility,com.niufish.pattern.strategy,com.niufish.pattern.templateMethod,com.niufish.pattern.facade,com.niufish.pattern.composite.transparence,com.niufish.pattern.proxy,com.niufish.pattern.interpreter,com.niufish.pattern.composite.safe,com.niufish.pattern.prototype,com.niufish.pattern.state,com.niufish.pattern.observer,com.niufish.pattern.mediator,com.niufish.pattern.factoryMethod,com.niufish.pattern.command" sourcepath="src" classpath="." overview="C:\java\eclipse31\workspace\Pattern\src\overview.html" doctitle="Java版模式速查手册"/>
+    </target>
+</project>

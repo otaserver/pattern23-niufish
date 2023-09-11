@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../../../../stylesheet.css" TITLE="Style">
+<META NAME="GENERATOR" CONTENT="Java2HTML Version 1.3.1">
+<TITLE>com.niufish.pattern.memento.Originator (Java2HTML)</TITLE>
+</HEAD>
+<BODY><TABLE id="Header" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" width="33%">&nbsp;</td>
+<td align="center" colspan="2" width="33%">
+<font size="4">Originator.java</font>
+</td>
+<td align="right" colspan="2" width="33%">&nbsp;</td>
+</tr>
+</TABLE>
+<pre ID="Classes">
+<A NAME="1"></A><FONT ID="MultiLineComment">/*
+<A NAME="2"></A> * 项目名称 Pattern
+<A NAME="3"></A> * 包名称   com.niufish.pattern.memento
+<A NAME="4"></A> * 
+<A NAME="5"></A> * 文件名称 Originator.java
+<A NAME="6"></A> * 
+<A NAME="7"></A> */</FONT>
+<A NAME="8"></A><FONT ID="Package">package</FONT> <A HREF="../../../../com.niufish.pattern.memento.index.html" target="packageFrame">com.niufish.pattern.memento</A>;
+<A NAME="9"></A>
+<A NAME="10"></A><FONT ID="FormalComment">/**
+<A NAME="11"></A> * 发起人角色，创建一个含有当前的内部状态的备忘录对象，使用备忘录对象存储其内部状态。
+<A NAME="12"></A> * &lt;p&gt;
+<A NAME="13"></A> * &lt;a href="Originator.java.html"&gt;&lt;i&gt;View Source&lt;/i&gt;&lt;/a&gt;
+<A NAME="14"></A> * &lt;/p&gt;
+<A NAME="15"></A> * @author  Kingfish
+<A NAME="16"></A> * @version 1.0
+<A NAME="17"></A> */</FONT>
+<A NAME="18"></A><FONT ID="Public">public</FONT> <FONT ID="Class">class</FONT> Originator {
+<A NAME="19"></A>    
+<A NAME="20"></A>    <FONT ID="FormalComment">/**
+<A NAME="21"></A>     * 状态
+<A NAME="22"></A>     */</FONT>
+<A NAME="23"></A>    <FONT ID="Private">private</FONT> String _state;
+<A NAME="24"></A>    
+<A NAME="25"></A>    <FONT ID="FormalComment">/**
+<A NAME="26"></A>     * 工厂方法，返回一个新的备忘录对象
+<A NAME="27"></A>     * @return 新的备忘录对象
+<A NAME="28"></A>     */</FONT>
+<A NAME="29"></A>    <FONT ID="Public">public</FONT> Memento createMemento(){
+<A NAME="30"></A>        <FONT ID="Return">return</FONT> <FONT ID="New">new</FONT> Memento(_state);
+<A NAME="31"></A>    }
+<A NAME="32"></A>    
+<A NAME="33"></A>    <FONT ID="FormalComment">/**
+<A NAME="34"></A>     * 恢复到备忘录对象所记载的状态
+<A NAME="35"></A>     * @param memento 记载状态的备忘录对象
+<A NAME="36"></A>     */</FONT>
+<A NAME="37"></A>    <FONT ID="Public">public</FONT> <FONT ID="Void">void</FONT> restoreMemento(<A HREF="../../../../com/niufish/pattern/memento/MementoIF.java.html">MementoIF</A> memento){
+<A NAME="38"></A>        _state = ((Memento)memento).getState();
+<A NAME="39"></A>    }
+<A NAME="40"></A>
+<A NAME="41"></A>    <FONT ID="Public">public</FONT> String getState() {
+<A NAME="42"></A>        <FONT ID="Return">return</FONT> _state;
+<A NAME="43"></A>    }
+<A NAME="44"></A>    
+<A NAME="45"></A>    <FONT ID="Public">public</FONT> <FONT ID="Void">void</FONT> setState(String _state) {
+<A NAME="46"></A>        <FONT ID="This">this</FONT>._state = _state;
+<A NAME="47"></A>        System.out.println(<FONT ID="StringLiteral">"current state:"</FONT>+_state);
+<A NAME="48"></A>    }
+<A NAME="49"></A>    
+<A NAME="50"></A>    <FONT ID="Protected">protected</FONT> <FONT ID="Class">class</FONT> Memento <FONT ID="Implements">implements</FONT> <A HREF="../../../../com/niufish/pattern/memento/MementoIF.java.html">MementoIF</A>{
+<A NAME="51"></A>        
+<A NAME="52"></A>        <FONT ID="FormalComment">/**
+<A NAME="53"></A>         * 保存的状态
+<A NAME="54"></A>         */</FONT>
+<A NAME="55"></A>        <FONT ID="Private">private</FONT> String _savedState;
+<A NAME="56"></A>        
+<A NAME="57"></A>        <FONT ID="FormalComment">/**
+<A NAME="58"></A>         * 保存发起人的状态
+<A NAME="59"></A>         * @param someState 发起人的状态
+<A NAME="60"></A>         */</FONT>
+<A NAME="61"></A>        <FONT ID="Private">private</FONT> Memento(String someState){
+<A NAME="62"></A>            _savedState = someState;
+<A NAME="63"></A>        }
+<A NAME="64"></A>        
+<A NAME="65"></A>        <FONT ID="FormalComment">/**
+<A NAME="66"></A>         * 状态取值
+<A NAME="67"></A>         */</FONT>
+<A NAME="68"></A>        <FONT ID="Public">public</FONT> String getState() {
+<A NAME="69"></A>            <FONT ID="Return">return</FONT> _savedState;
+<A NAME="70"></A>        }
+<A NAME="71"></A>        
+<A NAME="72"></A>        <FONT ID="FormalComment">/**
+<A NAME="73"></A>         * 状态赋值 
+<A NAME="74"></A>         * @param _state 状态
+<A NAME="75"></A>         */</FONT>
+<A NAME="76"></A>        <FONT ID="Public">public</FONT> <FONT ID="Void">void</FONT> setState(String _state) {
+<A NAME="77"></A>            <FONT ID="This">this</FONT>._savedState = _state;
+<A NAME="78"></A>        }
+<A NAME="79"></A>    }
+<A NAME="80"></A>}
+<A NAME="81"></A></pre><TABLE id="Header" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" width="33%">&nbsp;</td>
+<td align="center" colspan="2" width="33%">
+<font size="4">Originator.java</font>
+</td>
+<td align="right" colspan="2" width="33%">&nbsp;</td>
+</tr>
+</TABLE>
+
+</BODY>
+</HTML>

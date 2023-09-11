@@ -1,0 +1,60 @@
+<project name="Pattern" basedir="." default="javadoc">
+	
+	<property name="lib.dir" location="lib"/>
+	<property file="${lib.dir}/lib.properties"/>
+	
+	<property name="build.dir" location="bin"/>
+	
+	<property name="src" value="${basedir}/src"/>
+
+	<property name="webapp.version" value="1.1"/>
+
+	<!-- Utilities -->
+	<patternset id="java.files.pattern" includes="**/*.java"/>
+	
+    <!-- =================================================================== -->
+    <!-- Create HTML versions of the Java code in this project               -->
+    <!-- =================================================================== -->
+    <target name="java2html" depends=""
+        description="creates HTML pages of code for online viewing">
+        <taskdef name="java2html" classname="com.java2html.Java2HTMLTask"
+            classpath="${j2h.jar}"/>
+
+        <java2html
+            destination="${basedir}/doc/api">
+            <fileset dir="${src}">
+                <patternset refid="java.files.pattern"/>
+            </fileset>
+        </java2html>
+    </target>
+	
+    <target name="javadoc" depends="java2html"
+        description="Generate JavaDoc API docs">
+
+        <javadoc 
+        	destdir="doc/api" 
+        	access="private" 
+        	use="true" 
+        	notree="false" 
+        	nonavbar="false" 
+        	noindex="false" 
+        	splitindex="true" 
+        	author="true" 
+        	version="true" 
+        	nodeprecatedlist="false" 
+        	nodeprecated="false" 
+        	bottom="Copyright 创作共用 &lt;a href='http://www.creativecommons.cn/licenses/by-nd-nc/1.0/' &gt;署名.禁止派生.非商业用途&lt;/a&gt;"
+        	sourcepath="src" 
+        	classpath="." 
+        	overview="${src}/overview.html" 
+        	windowtitle="Java版模式速查手册 api"
+        	doctitle="&lt;h1&gt;Java版模式速查手册&lt;/h1&gt;"
+        	stylesheetfile="doc/api/stylesheet.css">
+
+	        <fileset dir="${src}">
+	            <patternset refid="java.files.pattern"/>
+	        </fileset>
+		</javadoc>
+
+    </target>	
+</project>

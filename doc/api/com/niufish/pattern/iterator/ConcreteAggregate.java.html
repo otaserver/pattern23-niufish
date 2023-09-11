@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../../../../stylesheet.css" TITLE="Style">
+<META NAME="GENERATOR" CONTENT="Java2HTML Version 1.3.1">
+<TITLE>com.niufish.pattern.iterator.ConcreteAggregate (Java2HTML)</TITLE>
+</HEAD>
+<BODY><TABLE id="Header" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" width="33%">&nbsp;</td>
+<td align="center" colspan="2" width="33%">
+<font size="4">ConcreteAggregate.java</font>
+</td>
+<td align="right" colspan="2" width="33%">&nbsp;</td>
+</tr>
+</TABLE>
+<pre ID="Classes">
+<A NAME="1"></A><FONT ID="MultiLineComment">/*
+<A NAME="2"></A> * 项目名称 Pattern
+<A NAME="3"></A> * 包名称   com.niufish.pattern.iterator
+<A NAME="4"></A> * 
+<A NAME="5"></A> * 文件名称 ConcreteAggregate.java
+<A NAME="6"></A> * 
+<A NAME="7"></A> */</FONT>
+<A NAME="8"></A><FONT ID="Package">package</FONT> <A HREF="../../../../com.niufish.pattern.iterator.index.html" target="packageFrame">com.niufish.pattern.iterator</A>;
+<A NAME="9"></A>
+<A NAME="10"></A><FONT ID="FormalComment">/**
+<A NAME="11"></A> * 具体聚集角色
+<A NAME="12"></A> * &lt;p&gt;
+<A NAME="13"></A> * &lt;a href="ConcreteAggregate.java.html"&gt;&lt;i&gt;View Source&lt;/i&gt;&lt;/a&gt;
+<A NAME="14"></A> * &lt;/p&gt;
+<A NAME="15"></A> * @author  Kingfish
+<A NAME="16"></A> * @version 1.0
+<A NAME="17"></A> */</FONT>
+<A NAME="18"></A><FONT ID="Public">public</FONT> <FONT ID="Class">class</FONT> ConcreteAggregate <FONT ID="Implements">implements</FONT> <A HREF="../../../../com/niufish/pattern/iterator/Aggregate.java.html">Aggregate</A> {
+<A NAME="19"></A>    
+<A NAME="20"></A>    <FONT ID="FormalComment">/**
+<A NAME="21"></A>     * 持有的数组对象
+<A NAME="22"></A>     */</FONT>
+<A NAME="23"></A>    <FONT ID="Private">private</FONT> Object[] _objs = {<FONT ID="StringLiteral">"kingfish"</FONT>,<FONT ID="StringLiteral">"niuniu"</FONT>,<FONT ID="StringLiteral">"99"</FONT>};
+<A NAME="24"></A>    
+<A NAME="25"></A>    <FONT ID="FormalComment">/**
+<A NAME="26"></A>     * @see com.niufish.pattern.iterator.Aggregate#createIterator()
+<A NAME="27"></A>     */</FONT>
+<A NAME="28"></A>    <FONT ID="Public">public</FONT> <A HREF="../../../../com/niufish/pattern/iterator/Iterator.java.html">Iterator</A> createIterator() {
+<A NAME="29"></A>        <FONT ID="Return">return</FONT> <FONT ID="New">new</FONT> <A HREF="../../../../com/niufish/pattern/iterator/ConcreteIterator.java.html">ConcreteIterator</A>(<FONT ID="This">this</FONT>);
+<A NAME="30"></A>    }
+<A NAME="31"></A>    
+<A NAME="32"></A>    <FONT ID="FormalComment">/**
+<A NAME="33"></A>     * 提供聚集元素
+<A NAME="34"></A>     * @param idx 位置
+<A NAME="35"></A>     * @return 在位置上的对象
+<A NAME="36"></A>     */</FONT>
+<A NAME="37"></A>    <FONT ID="Public">public</FONT> Object getElement(<FONT ID="Int">int</FONT> idx){
+<A NAME="38"></A>        <FONT ID="If">if</FONT> (idx &lt; _objs.length)
+<A NAME="39"></A>            <FONT ID="Return">return</FONT> _objs[idx];
+<A NAME="40"></A>        <FONT ID="Else">else</FONT>
+<A NAME="41"></A>            <FONT ID="Return">return</FONT> <FONT ID="Null">null</FONT>;
+<A NAME="42"></A>    }
+<A NAME="43"></A>    
+<A NAME="44"></A>    <FONT ID="FormalComment">/**
+<A NAME="45"></A>     * @return 聚集的大小
+<A NAME="46"></A>     */</FONT>
+<A NAME="47"></A>    <FONT ID="Public">public</FONT> <FONT ID="Int">int</FONT> size(){
+<A NAME="48"></A>        <FONT ID="Return">return</FONT> _objs.length;
+<A NAME="49"></A>    }
+<A NAME="50"></A>
+<A NAME="51"></A>}
+<A NAME="52"></A></pre><TABLE id="Header" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" width="33%">&nbsp;</td>
+<td align="center" colspan="2" width="33%">
+<font size="4">ConcreteAggregate.java</font>
+</td>
+<td align="right" colspan="2" width="33%">&nbsp;</td>
+</tr>
+</TABLE>
+
+</BODY>
+</HTML>

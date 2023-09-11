@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../../../../stylesheet.css" TITLE="Style">
+<META NAME="GENERATOR" CONTENT="Java2HTML Version 1.3.1">
+<TITLE>com.niufish.pattern.builder.Director (Java2HTML)</TITLE>
+</HEAD>
+<BODY><TABLE id="Header" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" width="33%">&nbsp;</td>
+<td align="center" colspan="2" width="33%">
+<font size="4">Director.java</font>
+</td>
+<td align="right" colspan="2" width="33%">&nbsp;</td>
+</tr>
+</TABLE>
+<pre ID="Classes">
+<A NAME="1"></A><FONT ID="MultiLineComment">/*
+<A NAME="2"></A> * 项目名称 Pattern
+<A NAME="3"></A> * 包名称   com.niufish.pattern.builder
+<A NAME="4"></A> * 
+<A NAME="5"></A> * 文件名称 Director.java
+<A NAME="6"></A> * 
+<A NAME="7"></A> */</FONT>
+<A NAME="8"></A><FONT ID="Package">package</FONT> <A HREF="../../../../com.niufish.pattern.builder.index.html" target="packageFrame">com.niufish.pattern.builder</A>;
+<A NAME="9"></A>
+<A NAME="10"></A><FONT ID="FormalComment">/**
+<A NAME="11"></A> * 导演，负责有规则的构建对象 &lt;br /&gt;
+<A NAME="12"></A> * 与Client类合并时需要把建造的细节放到ConcreteBuilder中去
+<A NAME="13"></A> * &lt;p&gt;
+<A NAME="14"></A> * &lt;a href="Director.java.html"&gt;&lt;i&gt;View Source&lt;/i&gt;&lt;/a&gt;
+<A NAME="15"></A> * &lt;/p&gt;
+<A NAME="16"></A> * @author  Kingfish
+<A NAME="17"></A> * @version 1.0
+<A NAME="18"></A> */</FONT>
+<A NAME="19"></A><FONT ID="Public">public</FONT> <FONT ID="Class">class</FONT> Director {
+<A NAME="20"></A>    
+<A NAME="21"></A>    <FONT ID="Private">private</FONT> <A HREF="../../../../com/niufish/pattern/builder/Builder.java.html">Builder</A> _builder;
+<A NAME="22"></A>    
+<A NAME="23"></A>    <FONT ID="FormalComment">/**
+<A NAME="24"></A>     * 产品构造方法，负责调用各个零件建造方法
+<A NAME="25"></A>     */</FONT>
+<A NAME="26"></A>    <FONT ID="Public">public</FONT> <FONT ID="Void">void</FONT> construct(){
+<A NAME="27"></A>        _builder = <FONT ID="New">new</FONT> <A HREF="../../../../com/niufish/pattern/builder/ConcreteBuilder.java.html">ConcreteBuilder</A>();
+<A NAME="28"></A>        _builder.buildPart1();
+<A NAME="29"></A>        _builder.buildPart2();
+<A NAME="30"></A>        System.out.println(_builder.getResult().toString());
+<A NAME="31"></A>    }
+<A NAME="32"></A>    
+<A NAME="33"></A>
+<A NAME="34"></A>}
+<A NAME="35"></A></pre><TABLE id="Header" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" width="33%">&nbsp;</td>
+<td align="center" colspan="2" width="33%">
+<font size="4">Director.java</font>
+</td>
+<td align="right" colspan="2" width="33%">&nbsp;</td>
+</tr>
+</TABLE>
+
+</BODY>
+</HTML>

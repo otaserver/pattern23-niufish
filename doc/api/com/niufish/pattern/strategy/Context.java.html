@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../../../../stylesheet.css" TITLE="Style">
+<META NAME="GENERATOR" CONTENT="Java2HTML Version 1.3.1">
+<TITLE>com.niufish.pattern.strategy.Context (Java2HTML)</TITLE>
+</HEAD>
+<BODY><TABLE id="Header" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" width="33%">&nbsp;</td>
+<td align="center" colspan="2" width="33%">
+<font size="4">Context.java</font>
+</td>
+<td align="right" colspan="2" width="33%">&nbsp;</td>
+</tr>
+</TABLE>
+<pre ID="Classes">
+<A NAME="1"></A><FONT ID="MultiLineComment">/*
+<A NAME="2"></A> * 项目名称 Pattern
+<A NAME="3"></A> * 包名称   com.niufish.pattern.strategy
+<A NAME="4"></A> * 
+<A NAME="5"></A> * 文件名称 Context.java
+<A NAME="6"></A> * 
+<A NAME="7"></A> */</FONT>
+<A NAME="8"></A><FONT ID="Package">package</FONT> <A HREF="../../../../com.niufish.pattern.strategy.index.html" target="packageFrame">com.niufish.pattern.strategy</A>;
+<A NAME="9"></A>
+<A NAME="10"></A><FONT ID="FormalComment">/**
+<A NAME="11"></A> * 环境角色，持有一个Strategy的引用
+<A NAME="12"></A> * &lt;p&gt;
+<A NAME="13"></A> * &lt;a href="Context.java.html"&gt;&lt;i&gt;View Source&lt;/i&gt;&lt;/a&gt;
+<A NAME="14"></A> * &lt;/p&gt;
+<A NAME="15"></A> * @author  Kingfish
+<A NAME="16"></A> * @version 1.0
+<A NAME="17"></A> */</FONT>
+<A NAME="18"></A><FONT ID="Public">public</FONT> <FONT ID="Class">class</FONT> Context {
+<A NAME="19"></A>    
+<A NAME="20"></A>    <FONT ID="FormalComment">/**
+<A NAME="21"></A>     * 持有的策略对象
+<A NAME="22"></A>     */</FONT>
+<A NAME="23"></A>    <FONT ID="Private">private</FONT> <A HREF="../../../../com/niufish/pattern/strategy/Strategy.java.html">Strategy</A> _strategy;
+<A NAME="24"></A>    
+<A NAME="25"></A>    <FONT ID="FormalComment">/**
+<A NAME="26"></A>     * 用于初始化持有的对象
+<A NAME="27"></A>     * @param strategy 实例化的策略对象
+<A NAME="28"></A>     */</FONT>
+<A NAME="29"></A>    <FONT ID="Public">public</FONT> Context(<A HREF="../../../../com/niufish/pattern/strategy/Strategy.java.html">Strategy</A> strategy){
+<A NAME="30"></A>        _strategy = strategy;
+<A NAME="31"></A>    }
+<A NAME="32"></A>    
+<A NAME="33"></A>    <FONT ID="FormalComment">/**
+<A NAME="34"></A>     * 设置持有的对象
+<A NAME="35"></A>     * @param _strategy 实例化的策略对象
+<A NAME="36"></A>     */</FONT>
+<A NAME="37"></A>    <FONT ID="Public">public</FONT> <FONT ID="Void">void</FONT> setStrategy(<A HREF="../../../../com/niufish/pattern/strategy/Strategy.java.html">Strategy</A> _strategy) {
+<A NAME="38"></A>        <FONT ID="This">this</FONT>._strategy = _strategy;
+<A NAME="39"></A>    }
+<A NAME="40"></A>
+<A NAME="41"></A>    <FONT ID="FormalComment">/**
+<A NAME="42"></A>     * 策略方法
+<A NAME="43"></A>     */</FONT>
+<A NAME="44"></A>    <FONT ID="Public">public</FONT> <FONT ID="Void">void</FONT> contextInterface(){
+<A NAME="45"></A>        _strategy.algorithmInterface();
+<A NAME="46"></A>    }
+<A NAME="47"></A>    
+<A NAME="48"></A>}
+<A NAME="49"></A></pre><TABLE id="Header" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" width="33%">&nbsp;</td>
+<td align="center" colspan="2" width="33%">
+<font size="4">Context.java</font>
+</td>
+<td align="right" colspan="2" width="33%">&nbsp;</td>
+</tr>
+</TABLE>
+
+</BODY>
+</HTML>

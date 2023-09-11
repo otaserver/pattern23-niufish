@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../../../../stylesheet.css" TITLE="Style">
+<META NAME="GENERATOR" CONTENT="Java2HTML Version 1.3.1">
+<TITLE>com.niufish.pattern.flyweight.Client (Java2HTML)</TITLE>
+</HEAD>
+<BODY><TABLE id="Header" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" width="33%">&nbsp;</td>
+<td align="center" colspan="2" width="33%">
+<font size="4">Client.java</font>
+</td>
+<td align="right" colspan="2" width="33%">&nbsp;</td>
+</tr>
+</TABLE>
+<pre ID="Classes">
+<A NAME="1"></A><FONT ID="MultiLineComment">/*
+<A NAME="2"></A> * 项目名称 Pattern
+<A NAME="3"></A> * 包名称   com.niufish.pattern.flyweight
+<A NAME="4"></A> * 
+<A NAME="5"></A> * 文件名称 Client.java
+<A NAME="6"></A> * 
+<A NAME="7"></A> */</FONT>
+<A NAME="8"></A><FONT ID="Package">package</FONT> <A HREF="../../../../com.niufish.pattern.flyweight.index.html" target="packageFrame">com.niufish.pattern.flyweight</A>;
+<A NAME="9"></A>
+<A NAME="10"></A><FONT ID="FormalComment">/**
+<A NAME="11"></A> * 测试类
+<A NAME="12"></A> * &lt;p&gt;
+<A NAME="13"></A> * &lt;a href="Client.java.html"&gt;&lt;i&gt;View Source&lt;/i&gt;&lt;/a&gt;
+<A NAME="14"></A> * &lt;/p&gt;
+<A NAME="15"></A> * @author  Kingfish
+<A NAME="16"></A> * @version 1.0
+<A NAME="17"></A> */</FONT>
+<A NAME="18"></A><FONT ID="Public">public</FONT> <FONT ID="Class">class</FONT> Client {
+<A NAME="19"></A>
+<A NAME="20"></A>    <FONT ID="Public">public</FONT> <FONT ID="Static">static</FONT> <FONT ID="Void">void</FONT> main(String[] args) <FONT ID="Throws">throws</FONT> InstantiationException, IllegalAccessException, ClassNotFoundException {
+<A NAME="21"></A>        <A HREF="../../../../com/niufish/pattern/flyweight/FlyweightFactory.java.html">FlyweightFactory</A> factory = <FONT ID="New">new</FONT> <A HREF="../../../../com/niufish/pattern/flyweight/FlyweightFactory.java.html">FlyweightFactory</A>();
+<A NAME="22"></A>        <A HREF="../../../../com/niufish/pattern/flyweight/Flyweight.java.html">Flyweight</A> fly = factory.getFlyweight(<FONT ID="StringLiteral">"com.niufish.pattern.flyweight.ConcreteFlyweight"</FONT>);
+<A NAME="23"></A>        fly.operation(<FONT ID="StringLiteral">"nihao"</FONT>);
+<A NAME="24"></A>        fly.operation(<FONT ID="StringLiteral">"hello"</FONT>);
+<A NAME="25"></A>        <A HREF="../../../../com/niufish/pattern/flyweight/Flyweight.java.html">Flyweight</A> fly2 = factory.getFlyweight(<FONT ID="StringLiteral">"com.niufish.pattern.flyweight.ConcreteFlyweight"</FONT>);
+<A NAME="26"></A>        fly.operation(<FONT ID="StringLiteral">"yaligaidougoudoyimasi"</FONT>);
+<A NAME="27"></A>        fly.operation(<FONT ID="StringLiteral">"bengru"</FONT>);
+<A NAME="28"></A>    }
+<A NAME="29"></A>}
+<A NAME="30"></A></pre><TABLE id="Header" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" width="33%">&nbsp;</td>
+<td align="center" colspan="2" width="33%">
+<font size="4">Client.java</font>
+</td>
+<td align="right" colspan="2" width="33%">&nbsp;</td>
+</tr>
+</TABLE>
+
+</BODY>
+</HTML>
